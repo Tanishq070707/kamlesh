@@ -91,7 +91,8 @@
                             <div class="col-md-6">
                                 <div class="industryData">
                                     <h2 class="app-detail-subhead">About Adhesive & <br>Sealants Industry</h2>
-                                    <p class="app-detail-content">Talc is the world’s softest and most hydrophobic mineral – insoluble and inert.
+                                    <p class="app-detail-content">Talc is the world’s softest and most hydrophobic
+                                        mineral – insoluble and inert.
                                         It adds new features to products and makes processes more efficient. Talc grades
                                         on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or
                                         Chlorite. The properties of these minerals may vary depending on the resource.
@@ -106,12 +107,12 @@
                         <div class="productHead">
                             <h2>Products For <span class="sub-sub-head">Adhesive & Sealants</span></h2>
                         </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <a href="./product-detail.html">
+                        <div class="row" id="industry-products">
+                            <div class="col-md-3 industry-product-container industry-product-container-clone">
+                                <a href="" class="industry-product-anchor-tag">
                                     <div class="similarPCard">
-                                        <img src="./src/img/product/1.png" alt="">
-                                        <h5>Talc</h5>
+                                        <img src="" alt="" class="industry-product-anchor-image">
+                                        <h5 class="industry-product-anchor-title"></h5>
                                     </div>
                                 </a>
                             </div>
@@ -328,19 +329,34 @@
 <script>
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get('id');
-    const getIndustry = industries.find((industry)=>{
+    const getIndustry = industries.find((industry) => {
         return industry.id == id;
-    })
+    });
 
-    console.clear(); 
-    console.log(getIndustry)
+    const getProductsIndustryWise = products.filter((product) => { return product.industries.includes(id); });
 
     $('.app-detail-head').text(getIndustry.details.heading);
-    $('.app-detail-img').attr("src",getIndustry.details.image);
+    $('.app-detail-img').attr("src", getIndustry.details.image);
     $('.app-detail-subhead').text(getIndustry.details.subHeading);
     $('.app-detail-content').text(getIndustry.details.content);
     $('.sub-sub-head').text(getIndustry.details.heading);
-    console.log(getIndustry,id)
+
+    /** products listing --dynamic */
+    getProductsIndustryWise.forEach((product, index) => {
+        const targetContainer = index == 0 ? ".industry-product-container" : $(".industry-product-container").clone();
+        if (index != 0) { $(targetContainer).removeClass('industry-product-container-clone'); }
+
+        const anchorTag = $(targetContainer).find('.industry-product-anchor-tag');
+        const imageTag = $(targetContainer).find('.industry-product-anchor-image');
+        const titleTag = $(targetContainer).find('.industry-product-anchor-title');
+
+        $(anchorTag).attr("href", `./product-detail.html?industry-id=${id}&product-id=${product.id}`);
+        $(imageTag).attr("src", product.image);
+        $(titleTag).text(product.title);
+
+        if (index != 0) { $('#industry-products').append(targetContainer); }
+    });
+
 </script>
 
 </html>
