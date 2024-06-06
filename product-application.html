@@ -351,8 +351,8 @@
 <script>
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get('id');
-    const getProduct = products.find((industry) => {
-        return industry.id == id;
+    const getProduct = products.find((product) => {
+        return product.id == id;
     })
 
 
@@ -370,18 +370,19 @@
         return getProduct.industries.includes(industry.id);
     });
 
-    console.log("getIndustries",getIndustries,getProduct.industries);
-
     getIndustries.forEach((industry, index) => {
-        const targetCard = $(".app-card-clone").clone()
+        const targetCard = index == 0 ? ".app-card-clone" : $(".app-card-clone").clone();
+        if (index != 0) { $(targetCard).removeClass('app-card-clone'); }
+
         const title = $(targetCard).find('.title');
         const url = $(targetCard).find('.url');
         const industryIcon = $(targetCard).find('.industry-icon');
-        $(targetCard).removeClass('app-card-clone');
+
         $(title).text(industry.title);
-        $(url).attr("href", `./application-detail.html?id=${industry.id}`);
+        $(url).attr("href", `./product-detail.html?industry-id=${industry.id}&product-id=${id}`);
         $(industryIcon).attr("src", industry.icon);
-        $('.appCard-container').append(targetCard);
+
+        if (index != 0) { $('.appCard-container').append(targetCard); }
     });
 </script>
 

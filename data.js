@@ -110,9 +110,43 @@ const products = [
       content:
         "Talc is the world’s softest and most hydrophobic mineral – insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
       image: "./src/img/industry/1.png",
-      structureImage:"./src/img/Structure/1.png",
-      structreContent:"The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+      structureImage: "./src/img/Structure/1.png",
+      structreContent: "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
     },
+    grades: [
+      {
+        title: "Premium",
+        url: "https://example.com/premium"
+      },
+      {
+        title: "Standard",
+        url: "https://example.com/standard"
+      },
+      {
+        title: "Industrial",
+        url: "https://example.com/industrial"
+      },
+      {
+        title: "Low Grade",
+        url: "https://example.com/low-grade"
+      }
+    ],
+    specifications: [{
+      title: "Chemical Composition",
+      url: "https://example.com/talc/chemical-composition"
+    },
+    {
+      title: "Particle Size Distribution",
+      url: "https://example.com/talc/particle-size-distribution"
+    },
+    {
+      title: "Physical Properties",
+      url: "https://example.com/talc/physical-properties"
+    },
+    {
+      title: "Applications",
+      url: "https://example.com/talc/applications"
+    }]
   },
   {
     title: "Calcium Carbonate",
@@ -128,68 +162,121 @@ const products = [
       content:
         "Talc is the world’s softest and most hydrophobic mineral – insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
       image: "./src/img/industry/1.png",
-      structureImage:"./src/img/Structure/1.png",
-      structreContent:"The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+      structureImage: "./src/img/Structure/1.png",
+      structreContent: "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
     },
+    grades: [{
+      title: "High Purity",
+      url: "https://example.com/high-purity"
+    },
+    {
+      title: "Coated",
+      url: "https://example.com/coated"
+    },
+    {
+      title: "Precipitated",
+      url: "https://example.com/precipitated"
+    },
+    {
+      title: "Ground",
+      url: "https://example.com/ground"
+    }],
+    specifications: [{
+      title: "Chemical Composition",
+      url: "https://example.com/calcium-carbonate/chemical-composition"
+    },
+    {
+      title: "Particle Size Distribution",
+      url: "https://example.com/calcium-carbonate/particle-size-distribution"
+    },
+    {
+      title: "Physical Properties",
+      url: "https://example.com/calcium-carbonate/physical-properties"
+    },
+    {
+      title: "Applications",
+      url: "https://example.com/calcium-carbonate/applications"
+    }]
+
   },
   {
     title: "Polymer Masterbatch Additives",
     id: "964b04bc-4842-4771-aa16-3bf91baf5867",
     image: "./src/img/product/1.png",
     industries: [],
+    grades: [],
+    specifications: [],
   },
   {
     title: "Polymer Masterbatch Additives",
     id: "65c50094-0ffc-4734-83ed-c71065e27b69",
     image: "./src/img/product/1.png",
     industries: [],
+    grades: [],
+    specifications: [],
   },
   {
     title: "Polymer Masterbatch Additives",
     id: "7b3df0fc-d1f1-4aac-96be-7a65dfc4ed74",
     image: "./src/img/product/1.png",
     industries: [],
+    grades: [],
+    specifications: [],
   },
   {
     title: "Polymer Masterbatch Additives",
     id: "64605ba5-8587-4276-af0a-4b0f6b659c23",
     image: "./src/img/product/1.png",
     industries: [],
+    grades: [],
+    specifications: [],
   },
   {
     title: "Polymer Masterbatch Additives",
     id: "539f3aef-6dc8-49f7-a8c5-4a16dcb97f3a",
     image: "./src/img/product/1.png",
     industries: [],
+    grades: [],
+    specifications: [],
   },
   {
     title: "Polymer Masterbatch Additives",
     id: "848138bf-ff13-4e89-adf7-74cc8cdeb47a",
     image: "./src/img/product/1.png",
     industries: [],
+    grades: [],
+    specifications: [],
   },
   {
     title: "Polymer Masterbatch Additives",
     id: "07058995-9787-46fc-a541-8d3476315a22",
     image: "./src/img/product/1.png",
     industries: [],
+    grades: [],
+    specifications: [],
   },
   {
     title: "Polymer Masterbatch Additives",
     id: "3cbb6ea5-826a-420e-9427-fe7e77526d12",
     image: "./src/img/product/1.png",
     industries: [],
+    grades: [],
+    specifications: [],
   },
   {
     title: "Polymer Masterbatch Additives",
     id: "6ab4a8e4-000a-43f3-bff5-7368640f6dfc",
     image: "./src/img/product/1.png",
     industries: [],
+    grades: [],
+    specifications: [],
   },
   {
     title: "Polymer Masterbatch Additives",
     id: "53a06155-edd3-4f7a-9999-971c6b17adc2",
     image: "./src/img/product/1.png",
     industries: [],
+    grades: [],
+    specifications: [],
   },
 ];

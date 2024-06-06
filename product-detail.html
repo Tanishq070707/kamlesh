@@ -77,7 +77,8 @@
             <div class="productDetailSection mainmargin spacing">
                 <div class="container">
                     <div class="head">
-                        <h1>Calcite for Adhesive & Sealant</h1>
+                        <h1><span id="product-title">Calcite</span> for <span id="industry-title">Adhesive &
+                                Sealant</span></h1>
                     </div>
                     <div class="dividers"></div>
 
@@ -85,7 +86,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="productDetailImg">
-                                    <img src="./src/img//product/1.png" alt="">
+                                    <img src="./src/img//product/1.png" alt="" id="product-image">
                                 </div>
                             </div>
                         </div>
@@ -95,45 +96,32 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="productLinks">
-                                    <ul>
-                                        <li><a href="">Talc for Adhesive & Sealant</a></li>
-                                        <li><a href="">Polymer for Adhesive & Sealant</a></li>
-                                        <li><a href="">Talc for Adhesive & Sealant</a></li>
-                                        <li><a href="">Polymer for Adhesive & Sealant</a></li>
-                                        <li><a href="">Talc for Adhesive & Sealant</a></li>
-                                        <li><a href="">Polymer for Adhesive & Sealant</a></li>
+                                    <ul id="industry-products">
+                                        <li id="industry-product-li" class="industry-product-li-clone">
+                                            <a href="" id="industry-product-anchor-tag"></a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="productDetails">
-                                    <h2>Calcite for Adhesive & Sealant</h2>
-                                    <p>Talc is the world’s softest and most hydrophobic mineral – insoluble and inert.
-                                        It adds new features to products and makes processes more efficient. Talc grades
-                                        on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or
-                                        Chlorite. The properties of these minerals may vary depending on the resource.
-                                        20 Microns has access to some of the finest quality Talc reserves in India and
-                                        gives it an edge over the other struggling resources world over.</p>
+                                    <h2><span id="product-sub-heading"></span> for <span
+                                            id="industry-sub-heading"></span></h2>
+                                    <p id="product-content"></p>
                                     <div class="productGrade">
                                         <h5>Grades :</h5>
-                                        <ul>
-                                            <li><a href="">Grade 1</a></li>
-                                            <li><a href="">Grade 2</a></li>
-                                            <li><a href="">Grade 3</a></li>
-                                            <li><a href="">Grade 4</a></li>
+                                        <ul id="product-grades">
+                                            <li id="product-grade-li" class="product-grade-li-clone">
+                                                <a href="" id="product-grade-li-anchor-tag"></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="productSpec">
                                         <h5>Specification :</h5>
-                                        <ul>
-                                            <li><a href="">The performance of TALC products depends on its particle
-                                                    shape.</a></li>
-                                            <li><a href="">The performance of TALC products depends on its particle
-                                                    shape.</a></li>
-                                            <li><a href="">The performance of TALC products depends on its particle
-                                                    shape.</a></li>
-                                            <li><a href="">The performance of TALC products depends on its particle
-                                                    shape.</a></li>
+                                        <ul id="product-specifications">
+                                            <li id="product-specification-li" class="product-specification-li-clone">
+                                                <a href="" id="product-specification-li-anchor-tag"></a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -347,22 +335,69 @@
     </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="./industries.js"></script>
+<script src="./data.js"></script>
 <script>
-    console.log(industries)
-    industries.forEach((industry, index) => {
-        console.log(industry)
-        const targetCard = $(".app-card-clone").clone()
-        const title = $(targetCard).find('.title');
-        const url = $(targetCard).find('.url');
-        const industryIcon = $(targetCard).find('.industry-icon');
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('product-id');
+    const industryId = urlParams.get('industry-id');
 
-        $(targetCard).removeClass('app-card-clone');
-        $(title).text(industry.title);
-        $(url).attr("href", `${industry.id}`);
-        // $(industryIcon).attr("src",industry.icon);
-        $('.appCard-container').append(targetCard);
+    const getProduct = products.find((product) => { return product.id == productId; });
+    const getIndustry = industries.find((industry) => { return industry.id == industryId; });
+
+    const getProductsIndustryWise = products.filter((product) => { return product.industries.includes(industryId); });
+
+    $('#product-title').text(getProduct.title);
+    $('#industry-title').text(getIndustry.title);
+
+    $('#product-sub-heading').text(getProduct.title);
+    $('#industry-sub-heading').text(getIndustry.title);
+
+    $('#product-content').text(getProduct.details.content);
+    $('#product-image').attr('src',getProduct.image);
+
+    /** grades listing --dynamic */
+    getProduct.grades.forEach((grade, index) => {
+        const targetLI = index == 0 ? "#product-grade-li" : $("#product-grade-li").clone();
+
+        if (index != 0) { $(targetLI).removeClass('product-grade-li-clone'); }
+
+        const anchorTag = $(targetLI).find('#product-grade-li-anchor-tag');
+
+        $(anchorTag).text(grade.title);
+        $(anchorTag).attr("href", grade.url);
+
+        if (index != 0) { $('#product-grades').append(targetLI); }
     });
+
+    /** specifications listing --dynamic */
+    getProduct.specifications.forEach((specification, index) => {
+        const targetLI = index == 0 ? "#product-specification-li" : $("#product-specification-li").clone();
+
+        if (index != 0) { $(targetLI).removeClass('product-specification-li-clone'); }
+
+        const anchorTag = $(targetLI).find('#product-specification-li-anchor-tag');
+
+        $(anchorTag).text(specification.title);
+        $(anchorTag).attr("href", specification.url);
+
+        if (index != 0) { $('#product-specifications').append(targetLI); }
+    });
+
+    /** products listing --dynamic */
+    getProductsIndustryWise.forEach((product, index) => {
+
+        const targetLI = index == 0 ? "#industry-product-li" : $("#industry-product-li").clone();
+
+        if (index != 0) { $(targetLI).removeClass('industry-product-li-clone'); }
+
+        const anchorTag = $(targetLI).find('#industry-product-anchor-tag');
+
+        $(anchorTag).text(`${product.title} For ${getIndustry.title}`);
+        $(anchorTag).attr("href", `./product-detail.html?industry-id=${industryId}&product-id=${product.id}`);
+
+        if (index != 0) { $('#industry-products').append(targetLI); }
+    });
+
 </script>
 
 </html>
