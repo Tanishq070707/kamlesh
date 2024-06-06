@@ -101,6 +101,16 @@
         </section>
         <!-- application crad end -->
 
+        <!-- about product section  -->
+        <section>
+            <div class="aboutProductSection spacing pt-0">
+                <div class="productSec">
+                    <img src="./src/img/productCommonImg.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- about product section end -->
+
         <!-- footer section  -->
         <section>
             <footer>
@@ -307,8 +317,8 @@
 <script>
     products.forEach((product, index) => {
         const targetCard = index == 0 ? ".app-card-clone" : $(".app-card-clone").clone();
-        if(index != 0) { $(targetCard).removeClass('app-card-clone');}
-        
+        if (index != 0) { $(targetCard).removeClass('app-card-clone'); }
+
         const title = $(targetCard).find('.title');
         const url = $(targetCard).find('.url');
         const productImage = $(targetCard).find('.product-image');
@@ -316,8 +326,8 @@
         $(title).text(product.title);
         $(url).attr("href", `./product-application.html?id=${product.id}`);
         $(productImage).attr("src", product.image);
-        
-        if(index != 0) { $('.appCard-container').append(targetCard); }
+
+        if (index != 0) { $('.appCard-container').append(targetCard); }
     });
 </script>
 
