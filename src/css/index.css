@@ -375,6 +375,9 @@ p {
   padding-right: 1em;
 }
 
+.sIcon svg rect {
+ stroke: #fff;
+}
 .sIcon:hover svg path {
   fill: #0590da;
 }
