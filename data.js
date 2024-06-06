@@ -7,7 +7,7 @@ const industries = [
       heading: "ADHESIVE & SEALANTS",
       subHeading: "About Adhesive & Sealants Industry",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral – insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+        " At Kamlesh Minerals, we understand that the integrity of adhesives and sealants is paramount across industries. Our comprehensive range of meticulously sourced minerals and additives is tailored to enhance the performance and longevity of adhesive and sealant formulations. Whether it's bonding critical components in aerospace or sealing joints in construction, our products ensure superior adhesion, durability, and resistance to environmental factors. With Kamlesh Minerals, you can trust in the strength of your bonds and the integrity of your seals, driving confidence in every application.",
       image: "./src/img/industry/1.png",
     },
   },

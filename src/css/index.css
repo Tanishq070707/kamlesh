@@ -376,7 +376,7 @@ p {
 }
 
 .sIcon svg rect {
- stroke: #fff;
+  stroke: #fff;
 }
 .sIcon:hover svg path {
   fill: #0590da;
@@ -553,6 +553,10 @@ p {
   font-size: 54px;
 }
 
+.head span {
+  font-family: bolds !important;
+}
+
 .dividers {
   background-color: #000;
   height: 1px;
@@ -655,7 +659,7 @@ p {
   transform: translate(-50%, 20%);
   left: 50%;
   top: 50%;
-  width: 80%;
+  width: 18em;
   display: none;
 }
 
@@ -754,11 +758,11 @@ p {
   transition: all 1s;
 }
 
-.seemore:hover{
+.seemore:hover {
   color: #0590da !important;
 }
 
-.applicationCard:hover img{
+.applicationCard:hover img {
   opacity: 1;
   animation: bounce 0.6s ease;
   -webkit-animation: bounce 0.6s ease;
@@ -836,7 +840,7 @@ p {
   padding-top: 0.5em;
 }
 
-.similarPCard:hover h5{
+.similarPCard:hover h5 {
   color: #000;
 }
 .similarPCard:hover::after {
@@ -854,6 +858,7 @@ p {
 
 .similarPCard {
   position: relative;
+  margin-bottom: 1em;
 }
 
 .similarproduct a {
@@ -898,6 +903,12 @@ p {
 .productDetails h2 {
   font-family: bolds !important;
 }
+.productDetailImg img {
+  border-radius: 20px;
+}
+.productDetails span {
+  font-family: bolds !important;
+}
 
 .productLinks {
   background-color: #f8f8f8;
@@ -925,16 +936,16 @@ p {
   padding-left: 0;
 }
 
-.productCards a{
+.productCards a {
   text-decoration: none;
   color: #000;
 }
 
-.productCards a:hover{
+.productCards a:hover {
   color: #000;
 }
 
-.structure h1{
+.structure h1 {
   font-family: bolds !important;
 }
 
@@ -948,36 +959,36 @@ p {
   }
 }
 
-.productData{
+.productData {
   margin-top: 3em;
 }
 
-.productData .structureFixed{
+.productData .structureFixed {
   position: sticky;
   top: 8em;
 }
 
-.productHead h2 span{
+.productHead h2 span {
   font-family: bolds !important;
 }
 
-.structure h1 span{
+.structure h1 span {
   font-family: bolds !important;
 }
 
-.industryData h2 span{
-  font-family:  bolds !important;
+.industryData h2 span {
+  font-family: bolds !important;
 }
 
-.heading h2 span{
+.heading h2 span {
   border: none !important;
   color: #0590da !important;
 }
 
-.qualityContent p{
+.qualityContent p {
   padding-top: 1em;
 }
 
-.product-structure-img{
+.product-structure-img {
   width: 50%;
 }
