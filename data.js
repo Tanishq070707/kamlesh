@@ -216,7 +216,7 @@ const products = [
       heading: "Talc",
       content:
         "Talc, known for its softness and smooth texture, is a naturally occurring mineral composed of mainly hydrated magnesium silicate. It is widely utilized in various industries due to its excellent properties, including lubricity, chemical inertness, and high thermal stability. Talc is used in many industries, including paper making, plastic, paint and coatings, rubber, food, electric cable, pharmaceuticals, cosmetics, and ceramics. A coarse grayish-green high-talc rock is soapstone or steatite, used for stoves, sinks, electrical switchboards, etc. It is often used for the surfaces of laboratory table tops and electrical switchboards because of its resistance to heat, electricity, and acids.",
-      image: "./src/img/industry/1.png",
+      image: "./src/img/product/1.png",
       structureImage: "./src/img/Structure/1.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
@@ -278,10 +278,10 @@ const products = [
       "4489a0ba-0ee8-4434-a91a-01f786902a31"
     ],
     details: {
-      heading: "CALCIUM CARBONATE",
+      heading: "Calcium Carbonate",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral – insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/2.png",
+        "Calcium carbonate (CaCO₃) is an exceptionally versatile mineral, prized across various industries for its abundance and valuable properties. Naturally occurring in forms such as chalk, limestone, and marble, calcium carbonate is renowned for its high purity, whiteness, and stability. This mineral plays a pivotal role in sectors including construction, pharmaceuticals, agriculture, adhesives and sealants, automobiles, cosmetics, ceramics, paper, paint and coating, rubber, and plastics and polymers, offering key advantages such as enhanced strength, improved texture, and superior functionality. At Kamlesh Minerals, we are dedicated to delivering the highest-quality calcium carbonate products available on the market. Sourced from premier mines in India, Vietnam, Malaysia, and Egypt, our calcium carbonate undergoes meticulous processing to ensure unparalleled consistency and purity.",
+      image: "./src/img/product/2.png",
       structureImage: "./src/img/Structure/2.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
@@ -337,10 +337,10 @@ const products = [
       "4489a0ba-0ee8-4434-a91a-01f786902a31"
     ],
     details: {
-      heading: "DOLOMITE",
+      heading: "Dolomite",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral – insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/3.png",
+        "Dolomite is a naturally occurring mineral composed of calcium magnesium carbonate (CaMg(CO3)2). It is widely recognized for its purity and versatile applications in various industries. Dolomite exhibits unique properties such as high brightness, weather resistance, high specific gravity, and low solubility, making it an essential material in a wide range of industrial processes. Dolomite is commonly used in the construction industry, agriculture, steel production, cosmetics, ceramics, detergents, paints and coatings, plastic and polymer, cables and wires, and electronics industries. At Kamlesh Minerals, we are dedicated to providing the finest quality dolomite products available. Our dolomite is sourced from premium mines and processed with the utmost care to ensure excellence. We have a wide range of dolomite-quality products to suit your application.",
+      image: "./src/img/product/3.png",
       structureImage: "./src/img/Structure/3.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
@@ -394,10 +394,10 @@ const products = [
       "cdba2271-c455-449b-9a1b-9f98b96cabc0"
     ],
     details: {
-      heading: "FELDSPAR",
+      heading: "Feldspar",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/4.png",
+        "Feldspar is a group of minerals comprising aluminum silicates and varying amounts of potassium, sodium, and calcium. It is one of the most abundant minerals in the Earth's crust, found in igneous, metamorphic, and sedimentary rocks. Feldspar is renowned for its versatility and is widely used in industries such as ceramics, glass manufacturing, construction, and electronics due to its unique properties, including hardness, stability, and chemical inertness. At Kamlesh Minerals, we take pride in offering top-quality feldspar products to meet the diverse needs of our customers. Sourced from reputable mines and processed with precision, our feldspar exemplifies excellence in quality and consistency.",
+      image: "./src/img/product/4.png",
       structureImage: "./src/img/Structure/4.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
@@ -450,10 +450,10 @@ const products = [
       "cdba2271-c455-449b-9a1b-9f98b96cabc0"
     ],
     details: {
-      heading: "WOLLASTONITE",
+      heading: "Wollastonite",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/5.png",
+        "Wollastonite is a naturally occurring calcium silicate mineral with a needle-like crystal structure. It is characterized by its unique physical and chemical properties, including high brightness, high aspect ratio, low oil absorption, and thermal stability. Wollastonite is commonly used in a variety of industrial applications due to its versatility and performance-enhancing capabilities. At Kamlesh Minerals, we specialize in providing high-quality wollastonite products tailored to meet the specific needs of our customers. Sourced from reputable mines and processed using advanced techniques, our wollastonite exemplifies excellence in quality and consistency.",
+      image: "./src/img/product/5.png",
       structureImage: "./src/img/Structure/5.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
@@ -508,10 +508,10 @@ const products = [
       "5fd0eeac-54f6-40bf-8fa6-6cfaf91bbe06"
     ],
     details: {
-      heading: "SILICA",
+      heading: "Silica",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/6.png",
+        "Silica, scientifically known as silicon dioxide (SiO2), is a versatile and abundant mineral renowned for its hardness, chemical inertness, and high melting point. Found extensively in nature, silica is a crucial component in various industries, including glass manufacturing, ceramics, construction, electronics, and filtration, due to its exceptional properties and adaptability. At Kamlesh Minerals, we are committed to delivering the highest quality silica products on the market. Our silica is meticulously sourced from premier mines and processed with precision to ensure unmatched purity and consistency.",
+      image: "./src/img/product/6.png",
       structureImage: "./src/img/Structure/6.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
@@ -562,10 +562,10 @@ const products = [
       "24f52596-4a92-4dfc-97c4-cef0425bc026"
     ],
     details: {
-      heading: "HYDRATED LIME",
+      heading: "Hydrated Lime",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/7.png",
+        "Hydrated lime, also known as calcium hydroxide (Ca(OH)2), is a versatile chemical compound produced by adding water to quicklime (calcium oxide). It is characterized by its white, powdery appearance and alkaline properties. Hydrated lime has numerous industrial, environmental, and chemical applications due to its ability to react with acids, neutralize acidity, and serve as a versatile chemical reagent. At Kamlesh Minerals, we specialize in providing high-quality hydrated lime products tailored to meet the specific needs of our customers. Produced using state-of-the-art technology and strict quality control measures, our hydrated lime exemplifies excellence in purity, consistency, and performance.",
+      image: "./src/img/product/7.png",
       structureImage: "./src/img/Structure/7.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
@@ -616,10 +616,10 @@ const products = [
       "cdba2271-c455-449b-9a1b-9f98b96cabc0"
     ],
     details: {
-      heading: "QUICKLIME",
+      heading: "Quicklime",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/8.png",
+        "Quicklime, also known as calcium oxide (CaO), is a versatile chemical compound produced by heating limestone (calcium carbonate) to high temperatures in a kiln. It is characterized by its white, caustic, and crystalline appearance. Quicklime reacts vigorously with water to produce hydrated lime (calcium hydroxide), releasing heat in the process. This exothermic reaction makes quicklime useful in various industrial, environmental, and chemical applications. At Kamlesh Minerals, we specialize in providing high-quality quicklime products tailored to meet the specific needs of our customers. Produced using advanced technology and strict quality control measures, our quicklime exemplifies excellence in purity, consistency, and performance.",
+      image: "./src/img/product/8.png",
       structureImage: "./src/img/Structure/8.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
@@ -672,10 +672,10 @@ const products = [
       "5fd0eeac-54f6-40bf-8fa6-6cfaf91bbe06"
     ],
     details: {
-      heading: "PYROPHYLLITE",
+      heading: "Pyrophyllite",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/9.png",
+        "Pyrophyllite is a phyllosilicate mineral composed of aluminum silicate hydroxide (Al2Si4O10(OH)2). It is characterized by its unique properties, including a fine-grained structure, excellent thermal stability, low expansion upon heating, and high chemical inertness. Pyrophyllite is commonly found in metamorphic rocks and is prized for its versatility and wide range of industrial applications. At Kamlesh Minerals, we specialize in providing high-quality pyrophyllite products tailored to meet the specific needs of our customers. Sourced from reputable mines and processed using advanced techniques, our pyrophyllite exemplifies excellence in purity, consistency, and performance.",
+      image: "./src/img/product/9.png",
       structureImage: "./src/img/Structure/9.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
@@ -727,10 +727,10 @@ const products = [
       "213420c3-9c59-4643-85b1-1b6275e16fc0"
     ],
     details: {
-      heading: "ANHYDROUS SODIUM SULFATE",
+      heading: "Anhydrous Sodium Sulfate",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/10.png",
+        "Anhydrous sodium sulfate (Na2SO4) is a white, crystalline compound known for its versatility and wide range of industrial applications. As the anhydrous form suggests, it contains no water molecules within its crystal structure. It is commonly produced as a byproduct in various chemical processes and is also mined from natural deposits. Anhydrous sodium sulfate is highly soluble in water and has properties that make it useful in industries such as detergents, textiles, glass manufacturing, plastic, filler masterbatch and chemical synthesis. ",
+      image: "./src/img/product/10.png",
       structureImage: "./src/img/Structure/10.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
@@ -780,10 +780,10 @@ const products = [
       "213420c3-9c59-4643-85b1-1b6275e16fc0"
     ],
     details: {
-      heading: "CALCINED KAOLIN",
+      heading: "Calcined Kaolin",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/11.png",
+        "Calcined kaolin, also known as metakaolin, is a high-performance mineral derived from the thermal treatment of kaolin clay. Through a process called calcination, kaolin clay is heated to temperatures above 600°C, causing it to undergo structural and chemical transformations. Calcined kaolin exhibits altered physical and chemical properties compared to raw kaolin, including increased brightness, decreased moisture content, improved opacity, and enhanced whiteness. ",
+      image: "./src/img/product/11.png",
       structureImage: "./src/img/Structure/11.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
@@ -833,10 +833,10 @@ const products = [
       "5ed00108-eda8-4284-b8a8-006ed4d68a14"
     ],
     details: {
-      heading: "DESICCANTS",
+      heading: "Desiccants",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/12.png",
+        "Desiccants are substances used to absorb moisture from the air, gases, or liquids, thereby reducing humidity levels in the surrounding environment. These materials play a crucial role in preserving the quality and integrity of products by preventing moisture-related damage such as mold growth, corrosion, and degradation. Desiccants come in various forms, including silica gel, activated alumina, molecular sieves, calcium chloride, and montmorillonite clay, each with its own unique properties and applications. ",
+      image: "./src/img/product/12.png",
       structureImage: "./src/img/Structure/12.png",
       structreContent:
         "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",

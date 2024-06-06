@@ -655,7 +655,7 @@ p {
   box-shadow: 0px 0px 10px -4px #ccc;
   background-color: #fff;
   padding: 0.5em 1em;
-  border-radius: 5px;
+  border-radius: 10px;
   transform: translate(-50%, 20%);
   left: 50%;
   top: 50%;
@@ -665,11 +665,19 @@ p {
 
 .submenu li {
   list-style: none;
-  padding: 0.3em 0;
+  padding: 0.3em 1em;
+}
+
+.submenu li:hover{
+  background-color: rgb(216, 247, 255);
+  border-radius: 10px;
 }
 
 .submenu ul {
   padding-left: 0;
+}
+.submenu a:hover{
+  color: #000;
 }
 
 .submenu a {
@@ -858,7 +866,7 @@ p {
 
 .similarPCard {
   position: relative;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .similarproduct a {
@@ -978,6 +986,7 @@ p {
 
 .industryData h2 span {
   font-family: bolds !important;
+  text-transform: capitalize;
 }
 
 .heading h2 span {
@@ -993,4 +1002,13 @@ p {
   width: 50%;
   height: 14em;
   object-fit: contain;
+  margin-top: 2em;
+}
+
+.appDetailImg img{
+  border-radius: 10px;
+}
+
+.productDetails h2{
+  color: #202020 !important;
 }
