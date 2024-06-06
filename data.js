@@ -19,79 +19,177 @@ const industries = [
       heading: "Automobile",
       subHeading: "About Automobile Industry",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral – insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/1.png",
+        "Drive innovation and performance with Kamlesh Minerals' automotive solutions. From enhancing the structural integrity of vehicle components to improving the aesthetic appeal of automotive finishes, our premium minerals and additives are engineered to meet the exacting standards of the automotive industry. Whether it's lightweight fillers for advanced composites or corrosion-resistant coatings for exterior surfaces, our products empower automotive manufacturers to push the boundaries of design, efficiency, and safety.",
+      image: "./src/img/industry/2.png",
     },
   },
   {
     title: "Cosmetic",
     id: "3c09a996-9931-4278-bc21-17a3131c3fed",
     icon: "./src/img/appicon/3.svg",
+    details: {
+      heading: "Cosmetic",
+      subHeading: "About Cosmetic Industry",
+      content:
+        "Elevate beauty formulations with Kamlesh Minerals' exquisite range of cosmetic ingredients. Delicately sourced and meticulously processed, our minerals and additives redefine luxury and efficacy in cosmetics. From enhancing the texture and spreadability of creams and lotions to imparting vibrant pigments in makeup formulations, our products reflect a commitment to quality, purity, and innovation. With Kamlesh Minerals, you can indulge your senses and enhance your natural beauty, confident in the superior quality of every application.",
+      image: "./src/img/industry/3.png",
+    },
   },
   {
     title: "Ceramic",
     id: "e55121d7-f05c-453d-b9d4-bb216b0845be",
     icon: "./src/img/appicon/4.svg",
+    details: {
+      heading: "Ceramic",
+      subHeading: "About Ceramic Industry",
+      content:
+        "Craft timeless elegance with Kamlesh Minerals  ceramic materials. Renowned for their exceptional strength, durability, and aesthetic appeal, our minerals and additives are the cornerstone of premium ceramic products worldwide. Whether it's creating durable tiles for high-traffic areas or intricate porcelain artistry, our solutions empower ceramic manufacturers to realize their creative visions with confidence. With Kamlesh Minerals, you can transform spaces, enrich experiences, and leave a lasting impression through the artistry of ceramics.",
+      image: "./src/img/industry/4.png",
+    },
   },
   {
     title: "Building Additives/Fillers",
     id: "2d70bbfa-0c87-4f84-8823-befabedc05ef",
     icon: "./src/img/appicon/5.svg",
+    details: {
+      heading: "Building Additives/Fillers",
+      subHeading: "About Building Additives/Fillers Industry",
+      content:
+        "Build with strength and sustainability using Kamlesh Minerals' building additives and fillers. Our meticulously engineered materials enhance the performance and longevity of construction materials, from concrete to plaster. By improving strength, durability, and workability, our additives enable builders to construct resilient structures that withstand the test of time and environmental challenges. With Kamlesh Minerals, you can build with confidence, knowing that every structure is fortified for enduring excellence.",
+      image: "./src/img/industry/5.png",
+    },
   },
   {
     title: "Detergents & Soaps",
     id: "ab2c9fd9-7ee5-4f7c-a309-e9ca65d372e2",
     icon: "./src/img/appicon/6.svg",
+    details: {
+      heading: "Detergents & Soaps",
+      subHeading: "About Detergents & Soaps Industry",
+      content:
+        "Embrace cleanliness and efficiency with Kamlesh Minerals' detergent and soap additives. Our premium ingredients are meticulously formulated to enhance the cleaning power, foam stability, and sensory experience of detergents and soaps. Whether it's formulating gentle cleansers for sensitive skin or industrial-strength detergents for tough stains, our products deliver unparalleled performance and efficacy. With Kamlesh Minerals, you can trust in the power of purity, ensuring pristine cleanliness in every wash.",
+      image: "./src/img/industry/6.png",
+    },
   },
   {
     title: "Masterbatch Filler",
     id: "0462f7de-83fa-4697-a0e7-98b8d6634529",
     icon: "./src/img/appicon/7.svg",
+    details: {
+      heading: "Masterbatch Filler",
+      subHeading: "About Masterbatch Filler Industry",
+      content:
+        "Master the art of color dispersion with Kamlesh Minerals' masterbatch fillers. Our precisely engineered additives enable uniform dispersion and vibrant coloration in masterbatch formulations, unlocking limitless possibilities for plastic manufacturers. By ensuring consistent quality, stability, and compatibility, our fillers empower manufacturers to achieve precise color matching and optimal performance in their plastic products. With Kamlesh Minerals, you can infuse your creations with vibrant hues and lasting brilliance, setting new standards of excellence in the industry.",
+      image: "./src/img/industry/7.png",
+    },
   },
   {
     title: "Paper & Boards",
     id: "f469524b-4574-40ce-a2ac-73968332e285",
     icon: "./src/img/appicon/8.svg",
+    details: {
+      heading: "Paper & Boards",
+      subHeading: "About Paper & Boards Industry",
+      content:
+        "Transform ideas into reality with Kamlesh Minerals' paper and board additives. Our specialty minerals enhance the strength, smoothness, and printability of paper products, elevating the quality of printed materials across industries. Whether it's producing premium packaging solutions or fine stationery, our additives ensure exceptional results, from vibrant colors to crisp text and graphics. With Kamlesh Minerals, you can turn every project into a masterpiece, inspiring creativity and leaving a lasting impression on your audience.",
+      image: "./src/img/industry/8.png",
+    },
   },
   {
     title: "Paints & Coatings",
     id: "24f52596-4a92-4dfc-97c4-cef0425bc026",
     icon: "./src/img/appicon/9.svg",
+    details: {
+      heading: "Paints & Coatings",
+      subHeading: "About Paints & Coatings Industry",
+      content:
+        "Coat surfaces with confidence using Kamlesh Minerals paints and coatings additives. Our advanced materials are meticulously formulated to enhance adhesion, durability, and color stability in paint formulations. Whether it's architectural coatings that withstand the elements or industrial paints for demanding applications, our additives deliver superior performance and longevity. With Kamlesh Minerals, you can protect and beautify surfaces, ensuring lasting durability and aesthetic appeal in every application.",
+      image: "./src/img/industry/9.png",
+    },
   },
   {
     title: "Plastic & Polymer",
     id: "cdba2271-c455-449b-9a1b-9f98b96cabc0",
     icon: "./src/img/appicon/10.svg",
+    details: {
+      heading: "Plastic & Polymer",
+      subHeading: "About Plastic & Polymer Industry",
+      content:
+        "Plastics and polymers have become indispensable in modern manufacturing, permeating various sectors from packaging to automotive engineering. Their versatility, durability, and mold ability make them the cornerstone of countless products we use daily. At Kamlesh Minerals, we understand the pivotal role these materials play in driving innovation and efficiency across industries. Our comprehensive range of plastic and polymer additives is meticulously formulated to enhance performance, durability, and sustainability. Whether it's improving mechanical properties, enhancing UV resistance, or optimizing processing characteristics, our products empower manufacturers to meet the evolving demands of today's markets.",
+      image: "./src/img/industry/10.png",
+    },
   },
   {
     title: "Rubber",
     id: "5fd0eeac-54f6-40bf-8fa6-6cfaf91bbe06",
     icon: "./src/img/appicon/11.svg",
+    details: {
+      heading: "Rubber",
+      subHeading: "About Rubber Industry",
+      content:
+        "From automotive components to industrial machinery, rubber products form the backbone of countless applications. Their resilience, flexibility, and weather resistance make them essential in environments where durability is paramount. At Kamlesh Minerals, we specialize in providing premium rubber additives that elevate performance and longevity. Whether it's enhancing abrasion resistance, improving adhesion, or ensuring thermal stability, our additives are engineered to meet the most demanding industry standards. Partner with us to unlock the full potential of rubber in your applications and experience unparalleled reliability and performance.",
+      image: "./src/img/industry/11.png",
+    },
   },
   {
     title: "Textile",
     id: "213420c3-9c59-4643-85b1-1b6275e16fc0",
     icon: "./src/img/appicon/12.svg",
+    details: {
+      heading: "Textile",
+      subHeading: "About Textile Industry",
+      content:
+        "In the fast-paced world of textiles, staying ahead requires a delicate balance of innovation and functionality. From high-performance sportswear to technical textiles used in aerospace, the demands on materials are ever-evolving. Kamlesh Minerals offers a range of specialty additives designed to augment textile properties, from enhancing moisture management to improving dye absorption and color fastness. Our solutions empower textile manufacturers to push boundaries, delivering fabrics that not only look stunning but also perform flawlessly in any environment.",
+      image: "./src/img/industry/12.png",
+    },
   },
   {
     title: "Semiconductors/Electronics",
     id: "4489a0ba-0ee8-4434-a91a-01f786902a31",
     icon: "./src/img/appicon/13.svg",
+    details: {
+      heading: "Semiconductors/Electronics",
+      subHeading: "About Semiconductors/Electronics Industry",
+      content:
+        "Semiconductors and electronics are the backbone of modern technology, powering everything from smartphones to industrial automation systems. As technology advances, the demand for smaller, faster, and more efficient components continues to rise. Kamlesh Minerals is at the forefront of semiconductor manufacturing, providing critical materials and additives that enable the production of cutting-edge electronic devices. From dielectric coatings to semiconductor dopants, our products play a vital role in enhancing performance, reliability, and yield, ensuring that your electronics meet the highest standards of quality and efficiency.",
+      image: "./src/img/industry/13.png",
+    },
   },
   {
     title: "Pharma & Drugs",
     id: "0ea2bff7-0288-4fd0-b22d-ef29ea5dbf44",
     icon: "./src/img/appicon/14.svg",
+    details: {
+      heading: "Pharma & Drugs",
+      subHeading: "About Pharma & Drugs Industry",
+      content:
+        "Semiconductors and electronics are the backbone of modern technology, powering everything from smartphones to industrial automation systems. As technology advances, the demand for smaller, faster, and more efficient components continues to rise. Kamlesh Minerals is at the forefront of semiconductor manufacturing, providing critical materials and additives that enable the production of cutting-edge electronic devices. From dielectric coatings to semiconductor dopants, our products play a vital role in enhancing performance, reliability, and yield, ensuring that your electronics meet the highest standards of quality and efficiency.",
+      image: "./src/img/industry/14.png",
+    },
   },
   {
     title: "Cables & Wire",
     id: "763d6e48-b4bd-4f25-b473-e2c5bf0cf7b0",
     icon: "./src/img/appicon/15.svg",
+    details: {
+      heading: "Cables & Wire",
+      subHeading: "About Cables & Wire Industry",
+      content:
+        "Cables and wires form the circulatory system of our modern infrastructure, transmitting power and data across vast distances with precision and reliability. In industries ranging from telecommunications to renewable energy, the performance of these critical components is paramount. At Kamlesh Minerals, we specialize in developing additives that enhance the mechanical and electrical properties of cables and wires, from improving flexibility and flame retardancy to enhancing thermal stability and moisture resistance. With our comprehensive range of solutions, you can trust that your cables and wires will deliver unmatched performance and longevity in any application.",
+      image: "./src/img/industry/15.png",
+    },
   },
   {
     title: "Polymer Masterbatch Additives",
     id: "5ed00108-eda8-4284-b8a8-006ed4d68a14",
     icon: "./src/img/appicon/16.svg",
+    details: {
+      heading: "Polymer Masterbatch Additives",
+      subHeading: "About Polymer Masterbatch Additives Industry",
+      content:
+        "Moisture is a formidable adversary to the quality and effectiveness of polymer masterbatch additives. In the application industry, where precision and reliability are paramount, our specialized desiccant solutions stand as your frontline defense. Crafted with the unique challenges of the Polymer Masterbatch Additives industry in mind, our extensive array of desiccants ensures unparalleled moisture control. Whether you opt for our silica gel sachets or clay desiccant packs, each product is meticulously engineered to uphold optimal moisture levels, safeguarding your additives against degradation,clumping, and performance setbacks. Trust in our desiccant solutions to uphold the integrity and performance of your valuable additives, empowering your endeavors in the application industry.",
+      image: "./src/img/industry/16.png",
+    },
   },
 ];
 
@@ -104,179 +202,680 @@ const products = [
       "40248964-a573-4d59-8bb2-fb3c32366186",
       "f623363a-0a07-454c-94bb-da815f239a62",
       "3c09a996-9931-4278-bc21-17a3131c3fed",
+      "e55121d7-f05c-453d-b9d4-bb216b0845be",
+      "2d70bbfa-0c87-4f84-8823-befabedc05ef",
+      "ab2c9fd9-7ee5-4f7c-a309-e9ca65d372e2",
+      "f469524b-4574-40ce-a2ac-73968332e285",
+      "24f52596-4a92-4dfc-97c4-cef0425bc026",
+      "cdba2271-c455-449b-9a1b-9f98b96cabc0",
+      "5fd0eeac-54f6-40bf-8fa6-6cfaf91bbe06",
+      "0ea2bff7-0288-4fd0-b22d-ef29ea5dbf44",
+      "763d6e48-b4bd-4f25-b473-e2c5bf0cf7b0",
     ],
     details: {
       heading: "Talc",
       content:
-        "Talc is the world’s softest and most hydrophobic mineral – insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+        "Talc, known for its softness and smooth texture, is a naturally occurring mineral composed of mainly hydrated magnesium silicate. It is widely utilized in various industries due to its excellent properties, including lubricity, chemical inertness, and high thermal stability. Talc is used in many industries, including paper making, plastic, paint and coatings, rubber, food, electric cable, pharmaceuticals, cosmetics, and ceramics. A coarse grayish-green high-talc rock is soapstone or steatite, used for stoves, sinks, electrical switchboards, etc. It is often used for the surfaces of laboratory table tops and electrical switchboards because of its resistance to heat, electricity, and acids.",
       image: "./src/img/industry/1.png",
       structureImage: "./src/img/Structure/1.png",
-      structreContent: "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
     },
     grades: [
       {
         title: "Premium",
-        url: "https://example.com/premium"
+        url: "https://example.com/premium",
       },
       {
         title: "Standard",
-        url: "https://example.com/standard"
+        url: "https://example.com/standard",
       },
       {
         title: "Industrial",
-        url: "https://example.com/industrial"
+        url: "https://example.com/industrial",
       },
       {
         title: "Low Grade",
-        url: "https://example.com/low-grade"
-      }
+        url: "https://example.com/low-grade",
+      },
     ],
-    specifications: [{
-      title: "Chemical Composition",
-      url: "https://example.com/talc/chemical-composition"
-    },
-    {
-      title: "Particle Size Distribution",
-      url: "https://example.com/talc/particle-size-distribution"
-    },
-    {
-      title: "Physical Properties",
-      url: "https://example.com/talc/physical-properties"
-    },
-    {
-      title: "Applications",
-      url: "https://example.com/talc/applications"
-    }]
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/talc/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/talc/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/talc/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/talc/applications",
+      },
+    ],
   },
   {
     title: "Calcium Carbonate",
     id: "67a75c26-74d6-4571-a528-bcdfa2930907",
-    image: "./src/img/product/1.png",
+    image: "./src/img/product/2.png",
     industries: [
       "40248964-a573-4d59-8bb2-fb3c32366186",
       "f623363a-0a07-454c-94bb-da815f239a62",
       "3c09a996-9931-4278-bc21-17a3131c3fed",
+      "e55121d7-f05c-453d-b9d4-bb216b0845be",
+      "2d70bbfa-0c87-4f84-8823-befabedc05ef",
+      "0462f7de-83fa-4697-a0e7-98b8d6634529",
+      "f469524b-4574-40ce-a2ac-73968332e285",
+      "24f52596-4a92-4dfc-97c4-cef0425bc026",
+      "cdba2271-c455-449b-9a1b-9f98b96cabc0",
+      "5fd0eeac-54f6-40bf-8fa6-6cfaf91bbe06",
+      "0ea2bff7-0288-4fd0-b22d-ef29ea5dbf44",
+      "763d6e48-b4bd-4f25-b473-e2c5bf0cf7b0",
+      "4489a0ba-0ee8-4434-a91a-01f786902a31"
     ],
     details: {
       heading: "CALCIUM CARBONATE",
       content:
         "Talc is the world’s softest and most hydrophobic mineral – insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
-      image: "./src/img/industry/1.png",
-      structureImage: "./src/img/Structure/1.png",
-      structreContent: "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+      image: "./src/img/industry/2.png",
+      structureImage: "./src/img/Structure/2.png",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
     },
-    grades: [{
-      title: "High Purity",
-      url: "https://example.com/high-purity"
-    },
-    {
-      title: "Coated",
-      url: "https://example.com/coated"
-    },
-    {
-      title: "Precipitated",
-      url: "https://example.com/precipitated"
-    },
-    {
-      title: "Ground",
-      url: "https://example.com/ground"
-    }],
-    specifications: [{
-      title: "Chemical Composition",
-      url: "https://example.com/calcium-carbonate/chemical-composition"
-    },
-    {
-      title: "Particle Size Distribution",
-      url: "https://example.com/calcium-carbonate/particle-size-distribution"
-    },
-    {
-      title: "Physical Properties",
-      url: "https://example.com/calcium-carbonate/physical-properties"
-    },
-    {
-      title: "Applications",
-      url: "https://example.com/calcium-carbonate/applications"
-    }]
-
+    grades: [
+      {
+        title: "High Purity",
+        url: "https://example.com/high-purity",
+      },
+      {
+        title: "Coated",
+        url: "https://example.com/coated",
+      },
+      {
+        title: "Precipitated",
+        url: "https://example.com/precipitated",
+      },
+      {
+        title: "Ground",
+        url: "https://example.com/ground",
+      },
+    ],
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/calcium-carbonate/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/calcium-carbonate/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/calcium-carbonate/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/calcium-carbonate/applications",
+      },
+    ],
   },
   {
-    title: "Polymer Masterbatch Additives",
+    title: "Dolomite",
     id: "964b04bc-4842-4771-aa16-3bf91baf5867",
-    image: "./src/img/product/1.png",
-    industries: [],
-    grades: [],
-    specifications: [],
+    image: "./src/img/product/3.png",
+    industries: [
+      "3c09a996-9931-4278-bc21-17a3131c3fed",
+      "e55121d7-f05c-453d-b9d4-bb216b0845be",
+      "2d70bbfa-0c87-4f84-8823-befabedc05ef",
+      "24f52596-4a92-4dfc-97c4-cef0425bc026",
+      "cdba2271-c455-449b-9a1b-9f98b96cabc0",
+      "763d6e48-b4bd-4f25-b473-e2c5bf0cf7b0",
+      "4489a0ba-0ee8-4434-a91a-01f786902a31"
+    ],
+    details: {
+      heading: "DOLOMITE",
+      content:
+        "Talc is the world’s softest and most hydrophobic mineral – insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+      image: "./src/img/industry/3.png",
+      structureImage: "./src/img/Structure/3.png",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+    },
+    grades: [
+      {
+        title: "High Purity",
+        url: "https://example.com/high-purity",
+      },
+      {
+        title: "Coated",
+        url: "https://example.com/coated",
+      },
+      {
+        title: "Precipitated",
+        url: "https://example.com/precipitated",
+      },
+      {
+        title: "Ground",
+        url: "https://example.com/ground",
+      },
+    ],
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/calcium-carbonate/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/calcium-carbonate/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/calcium-carbonate/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/calcium-carbonate/applications",
+      },
+    ],
   },
   {
-    title: "Polymer Masterbatch Additives",
+    title: "Feldspar",
     id: "65c50094-0ffc-4734-83ed-c71065e27b69",
-    image: "./src/img/product/1.png",
-    industries: [],
-    grades: [],
-    specifications: [],
+    image: "./src/img/product/4.png",
+    industries: [
+      "40248964-a573-4d59-8bb2-fb3c32366186",
+      "e55121d7-f05c-453d-b9d4-bb216b0845be",
+      "0462f7de-83fa-4697-a0e7-98b8d6634529",
+      "24f52596-4a92-4dfc-97c4-cef0425bc026",
+      "cdba2271-c455-449b-9a1b-9f98b96cabc0"
+    ],
+    details: {
+      heading: "FELDSPAR",
+      content:
+        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+      image: "./src/img/industry/4.png",
+      structureImage: "./src/img/Structure/4.png",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+    },
+    grades: [
+      {
+        title: "High Purity",
+        url: "https://example.com/high-purity",
+      },
+      {
+        title: "Coated",
+        url: "https://example.com/coated",
+      },
+      {
+        title: "Precipitated",
+        url: "https://example.com/precipitated",
+      },
+      {
+        title: "Ground",
+        url: "https://example.com/ground",
+      },
+    ],
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/calcium-carbonate/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/calcium-carbonate/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/calcium-carbonate/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/calcium-carbonate/applications",
+      },
+    ],
   },
   {
-    title: "Polymer Masterbatch Additives",
+    title: "Wollastonite",
     id: "7b3df0fc-d1f1-4aac-96be-7a65dfc4ed74",
-    image: "./src/img/product/1.png",
-    industries: [],
-    grades: [],
-    specifications: [],
+    image: "./src/img/product/5.png",
+    industries: [
+      "40248964-a573-4d59-8bb2-fb3c32366186",
+      "e55121d7-f05c-453d-b9d4-bb216b0845be",
+      "24f52596-4a92-4dfc-97c4-cef0425bc026",
+      "cdba2271-c455-449b-9a1b-9f98b96cabc0"
+    ],
+    details: {
+      heading: "WOLLASTONITE",
+      content:
+        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+      image: "./src/img/industry/5.png",
+      structureImage: "./src/img/Structure/5.png",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+    },
+    grades: [
+      {
+        title: "High Purity",
+        url: "https://example.com/high-purity",
+      },
+      {
+        title: "Coated",
+        url: "https://example.com/coated",
+      },
+      {
+        title: "Precipitated",
+        url: "https://example.com/precipitated",
+      },
+      {
+        title: "Ground",
+        url: "https://example.com/ground",
+      },
+    ],
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/calcium-carbonate/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/calcium-carbonate/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/calcium-carbonate/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/calcium-carbonate/applications",
+      },
+    ],
   },
   {
-    title: "Polymer Masterbatch Additives",
+    title: "Silica",
     id: "64605ba5-8587-4276-af0a-4b0f6b659c23",
-    image: "./src/img/product/1.png",
-    industries: [],
-    grades: [],
-    specifications: [],
+    image: "./src/img/product/6.png",
+    industries: [
+      "3c09a996-9931-4278-bc21-17a3131c3fed",
+      "e55121d7-f05c-453d-b9d4-bb216b0845be",
+      "2d70bbfa-0c87-4f84-8823-befabedc05ef",
+      "24f52596-4a92-4dfc-97c4-cef0425bc026",
+      "cdba2271-c455-449b-9a1b-9f98b96cabc0",
+      "5fd0eeac-54f6-40bf-8fa6-6cfaf91bbe06"
+    ],
+    details: {
+      heading: "SILICA",
+      content:
+        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+      image: "./src/img/industry/6.png",
+      structureImage: "./src/img/Structure/6.png",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+    },
+    grades: [
+      {
+        title: "High Purity",
+        url: "https://example.com/high-purity",
+      },
+      {
+        title: "Coated",
+        url: "https://example.com/coated",
+      },
+      {
+        title: "Precipitated",
+        url: "https://example.com/precipitated",
+      },
+      {
+        title: "Ground",
+        url: "https://example.com/ground",
+      },
+    ],
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/calcium-carbonate/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/calcium-carbonate/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/calcium-carbonate/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/calcium-carbonate/applications",
+      },
+    ],
   },
   {
-    title: "Polymer Masterbatch Additives",
+    title: "Hydrated Lime",
     id: "539f3aef-6dc8-49f7-a8c5-4a16dcb97f3a",
-    image: "./src/img/product/1.png",
-    industries: [],
-    grades: [],
-    specifications: [],
+    image: "./src/img/product/7.png",
+    industries: [
+      "2d70bbfa-0c87-4f84-8823-befabedc05ef",
+      "24f52596-4a92-4dfc-97c4-cef0425bc026"
+    ],
+    details: {
+      heading: "HYDRATED LIME",
+      content:
+        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+      image: "./src/img/industry/7.png",
+      structureImage: "./src/img/Structure/7.png",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+    },
+    grades: [
+      {
+        title: "High Purity",
+        url: "https://example.com/high-purity",
+      },
+      {
+        title: "Coated",
+        url: "https://example.com/coated",
+      },
+      {
+        title: "Precipitated",
+        url: "https://example.com/precipitated",
+      },
+      {
+        title: "Ground",
+        url: "https://example.com/ground",
+      },
+    ],
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/calcium-carbonate/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/calcium-carbonate/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/calcium-carbonate/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/calcium-carbonate/applications",
+      },
+    ],
   },
   {
-    title: "Polymer Masterbatch Additives",
+    title: "Quicklime",
     id: "848138bf-ff13-4e89-adf7-74cc8cdeb47a",
-    image: "./src/img/product/1.png",
-    industries: [],
-    grades: [],
-    specifications: [],
+    image: "./src/img/product/8.png",
+    industries: [
+      "2d70bbfa-0c87-4f84-8823-befabedc05ef",
+      "cdba2271-c455-449b-9a1b-9f98b96cabc0"
+    ],
+    details: {
+      heading: "QUICKLIME",
+      content:
+        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+      image: "./src/img/industry/8.png",
+      structureImage: "./src/img/Structure/8.png",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+    },
+    grades: [
+      {
+        title: "High Purity",
+        url: "https://example.com/high-purity",
+      },
+      {
+        title: "Coated",
+        url: "https://example.com/coated",
+      },
+      {
+        title: "Precipitated",
+        url: "https://example.com/precipitated",
+      },
+      {
+        title: "Ground",
+        url: "https://example.com/ground",
+      },
+    ],
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/calcium-carbonate/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/calcium-carbonate/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/calcium-carbonate/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/calcium-carbonate/applications",
+      },
+    ],
   },
   {
-    title: "Polymer Masterbatch Additives",
+    title: "Pyrophyllite",
     id: "07058995-9787-46fc-a541-8d3476315a22",
-    image: "./src/img/product/1.png",
-    industries: [],
-    grades: [],
-    specifications: [],
+    image: "./src/img/product/9.png",
+    industries: [
+      "2d70bbfa-0c87-4f84-8823-befabedc05ef",
+      "ab2c9fd9-7ee5-4f7c-a309-e9ca65d372e2",
+      "24f52596-4a92-4dfc-97c4-cef0425bc026",
+      "5fd0eeac-54f6-40bf-8fa6-6cfaf91bbe06"
+    ],
+    details: {
+      heading: "PYROPHYLLITE",
+      content:
+        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+      image: "./src/img/industry/9.png",
+      structureImage: "./src/img/Structure/9.png",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+    },
+    grades: [
+      {
+        title: "High Purity",
+        url: "https://example.com/high-purity",
+      },
+      {
+        title: "Coated",
+        url: "https://example.com/coated",
+      },
+      {
+        title: "Precipitated",
+        url: "https://example.com/precipitated",
+      },
+      {
+        title: "Ground",
+        url: "https://example.com/ground",
+      },
+    ],
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/calcium-carbonate/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/calcium-carbonate/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/calcium-carbonate/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/calcium-carbonate/applications",
+      },
+    ],
   },
   {
-    title: "Polymer Masterbatch Additives",
+    title: "Anhydrous Sodium Sulfate",
     id: "3cbb6ea5-826a-420e-9427-fe7e77526d12",
-    image: "./src/img/product/1.png",
-    industries: [],
-    grades: [],
-    specifications: [],
+    image: "./src/img/product/10.png",
+    industries: [
+      "ab2c9fd9-7ee5-4f7c-a309-e9ca65d372e2",
+      "cdba2271-c455-449b-9a1b-9f98b96cabc0",
+      "213420c3-9c59-4643-85b1-1b6275e16fc0"
+    ],
+    details: {
+      heading: "ANHYDROUS SODIUM SULFATE",
+      content:
+        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+      image: "./src/img/industry/10.png",
+      structureImage: "./src/img/Structure/10.png",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+    },
+    grades: [
+      {
+        title: "High Purity",
+        url: "https://example.com/high-purity",
+      },
+      {
+        title: "Coated",
+        url: "https://example.com/coated",
+      },
+      {
+        title: "Precipitated",
+        url: "https://example.com/precipitated",
+      },
+      {
+        title: "Ground",
+        url: "https://example.com/ground",
+      },
+    ],
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/calcium-carbonate/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/calcium-carbonate/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/calcium-carbonate/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/calcium-carbonate/applications",
+      },
+    ],
   },
   {
-    title: "Polymer Masterbatch Additives",
+    title: "Calcined Kaolin",
     id: "6ab4a8e4-000a-43f3-bff5-7368640f6dfc",
-    image: "./src/img/product/1.png",
-    industries: [],
-    grades: [],
-    specifications: [],
+    image: "./src/img/product/11.png",
+    industries: [
+      "213420c3-9c59-4643-85b1-1b6275e16fc0"
+    ],
+    details: {
+      heading: "CALCINED KAOLIN",
+      content:
+        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+      image: "./src/img/industry/11.png",
+      structureImage: "./src/img/Structure/11.png",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+    },
+    grades: [
+      {
+        title: "High Purity",
+        url: "https://example.com/high-purity",
+      },
+      {
+        title: "Coated",
+        url: "https://example.com/coated",
+      },
+      {
+        title: "Precipitated",
+        url: "https://example.com/precipitated",
+      },
+      {
+        title: "Ground",
+        url: "https://example.com/ground",
+      },
+    ],
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/calcium-carbonate/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/calcium-carbonate/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/calcium-carbonate/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/calcium-carbonate/applications",
+      },
+    ],
   },
   {
-    title: "Polymer Masterbatch Additives",
+    title: "Desiccants",
     id: "53a06155-edd3-4f7a-9999-971c6b17adc2",
-    image: "./src/img/product/1.png",
-    industries: [],
-    grades: [],
-    specifications: [],
+    image: "./src/img/product/12.png",
+    industries: [
+      "5ed00108-eda8-4284-b8a8-006ed4d68a14"
+    ],
+    details: {
+      heading: "DESICCANTS",
+      content:
+        "Talc is the world’s softest and most hydrophobic mineral - insoluble and inert. It adds new features to products and makes processes more efficient. Talc grades on the market often contain Magnesium Carbonate, Dolomite, Calcite, Quartz or Chlorite. The properties of these minerals may vary depending on the resource. 20 Microns has access to some of the finest quality Talc reserves in India and gives it an edge over the other struggling resources world over.",
+      image: "./src/img/industry/12.png",
+      structureImage: "./src/img/Structure/12.png",
+      structreContent:
+        "The people of mineral mining with purpose to maximize efficiencies and minimize our environmental footprint .",
+    },
+    grades: [
+      {
+        title: "High Purity",
+        url: "https://example.com/high-purity",
+      },
+      {
+        title: "Coated",
+        url: "https://example.com/coated",
+      },
+      {
+        title: "Precipitated",
+        url: "https://example.com/precipitated",
+      },
+      {
+        title: "Ground",
+        url: "https://example.com/ground",
+      },
+    ],
+    specifications: [
+      {
+        title: "Chemical Composition",
+        url: "https://example.com/calcium-carbonate/chemical-composition",
+      },
+      {
+        title: "Particle Size Distribution",
+        url: "https://example.com/calcium-carbonate/particle-size-distribution",
+      },
+      {
+        title: "Physical Properties",
+        url: "https://example.com/calcium-carbonate/physical-properties",
+      },
+      {
+        title: "Applications",
+        url: "https://example.com/calcium-carbonate/applications",
+      },
+    ],
   },
 ];

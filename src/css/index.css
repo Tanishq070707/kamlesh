@@ -991,4 +991,6 @@ p {
 
 .product-structure-img {
   width: 50%;
+  height: 14em;
+  object-fit: contain;
 }
