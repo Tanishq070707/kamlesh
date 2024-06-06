@@ -343,7 +343,7 @@
 
     /** products listing --dynamic */
     getProductsIndustryWise.forEach((product, index) => {
-        const targetContainer = index == 0 ? ".industry-product-container" : $(".industry-product-container").clone();
+        const targetContainer = index == 0 ? ".industry-product-container-clone" : $(".industry-product-container-clone").clone();
         if (index != 0) { $(targetContainer).removeClass('industry-product-container-clone'); }
 
         const anchorTag = $(targetContainer).find('.industry-product-anchor-tag');
