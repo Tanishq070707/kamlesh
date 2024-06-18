@@ -229,6 +229,7 @@ p {
 
 .companyContent h4 {
   font-family: bolds !important;
+  font-size: 21px;
 }
 
 .companyCard img {
@@ -405,7 +406,7 @@ p {
 }
 .quicklinks a {
   text-decoration: none;
-  color: #999999;
+  color: #fff;
   font-family: semibold !important;
 }
 
@@ -414,7 +415,7 @@ p {
 }
 .quicklinkss a {
   text-decoration: none;
-  color: #999999;
+  color: #fff;
   font-family: semibold !important;
 }
 
@@ -452,7 +453,7 @@ p {
   padding-right: 0.5em;
 }
 .addressDetail p {
-  color: #999999;
+  color: #fff;
   font-size: 16px;
   font-family: semibold !important;
 }
@@ -471,7 +472,7 @@ p {
 
 .address a {
   text-decoration: underline;
-  color: #999999;
+  color: #fff;
   font-size: 16px !important;
   font-family: semibold !important;
 }
@@ -618,11 +619,11 @@ p {
   padding-top: 2em;
 }
 
-.teamCard {
+.teamContent {
   color: #fff;
 }
 
-.teamCard h3 {
+.teamContent h3 {
   font-family: bolds !important;
 }
 
@@ -668,7 +669,7 @@ p {
   padding: 0.3em 1em;
 }
 
-.submenu li:hover{
+.submenu li:hover {
   background-color: rgb(216, 247, 255);
   border-radius: 10px;
 }
@@ -676,7 +677,7 @@ p {
 .submenu ul {
   padding-left: 0;
 }
-.submenu a:hover{
+.submenu a:hover {
   color: #000;
 }
 
@@ -705,9 +706,9 @@ p {
 }
 .howicon img {
   width: 40%;
-  height: 8em;
+  height: 5em;
   object-fit: contain;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 .howCard {
@@ -729,13 +730,40 @@ p {
   height: 5%;
   position: absolute;
   right: -5%;
-  top: 20%;
+  top: 14%;
 }
 
 .applicationSection .heading {
   text-align: center;
   margin: 5em 0;
 }
+
+.appCard-container .applicationCards{
+  padding: 2.5em 2em;
+} 
+
+.applicationCards {
+  background-color: #f1f6fa;
+  border-radius: 10px;
+  margin-bottom: 1.5em;
+  padding: 2em;
+}
+
+
+
+.applicationCards .seemore {
+  color: #000 !important;
+  font-size: 14px;
+}
+
+.applicationCards .title {
+  font-family: bolds !important;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+.appCard-container .applicationCard{
+  padding: 3em 2em;
+} 
 
 .applicationCard {
   background-color: #f1f6fa;
@@ -766,11 +794,21 @@ p {
   transition: all 1s;
 }
 
+.applicationCards img{
+  width: 10%;
+  margin-bottom: 1em;
+}
+
 .seemore:hover {
   color: #0590da !important;
 }
 
 .applicationCard:hover img {
+  opacity: 1;
+  animation: bounce 0.6s ease;
+  -webkit-animation: bounce 0.6s ease;
+}
+.applicationCards:hover img {
   opacity: 1;
   animation: bounce 0.6s ease;
   -webkit-animation: bounce 0.6s ease;
@@ -888,6 +926,7 @@ p {
 .productSpec li {
   padding-right: 2em;
   color: #202020;
+  padding-bottom: 0.5em;
 }
 
 .productGrade a {
@@ -1005,10 +1044,155 @@ p {
   margin-top: 2em;
 }
 
-.appDetailImg img{
+.appDetailImg img {
   border-radius: 10px;
 }
 
-.productDetails h2{
+.productDetails h2 {
   color: #202020 !important;
+}
+
+.founderContent p{
+  color: #fff;
+}
+#pills-tab{
+  justify-content: center;
+}
+
+.companyTab{
+  padding-top: 4em;
+}
+
+.companyTab .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: #0590DA !important;
+  color: #fff !important;
+}
+
+.companyTab .nav-item{
+  margin: 0 2em;
+}
+
+.companyTab .nav-pills .nav-link{
+  background-color: #F1F6FA !important;
+  padding: 0.5em 2em !important;
+  border-radius: 10px !important;
+}
+
+.companyTab .heading{
+  text-align: center;
+}
+
+.infraSection{
+  padding-top: 4em;
+}
+
+.infraImg{
+  margin-bottom: 1.5em;
+}
+
+.mainAddress{
+  padding: 4em 0 0;
+}
+
+.mainAddress .heading{
+  text-align: center;
+}
+
+.locationContent h5{
+  font-family: bolds !important;
+}
+
+.locationContent p{
+  color: #202020;
+}
+
+.locationContent{
+  padding-top: 1em;
+}
+
+.addressSection{
+  background-color: #F1F6FA;
+}
+
+.sIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socailIcon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sIcon h5{
+  margin-bottom: 0;
+}
+
+.sIcon svg{
+  border: 1px solid #0590DA;
+  border-radius: 100px;
+  margin-right: 1em;
+}
+
+.sIcon h5{
+  font-family: semibold !important;
+}
+
+.socailIcon a{
+  text-decoration: none;
+  color: #000;
+}
+
+.formDetail{
+  padding-right: 4em;
+}
+
+.formDetail p{
+  padding: 1em 0;
+}
+
+.borderLeft{
+  border-left: 1px solid #cccccc;
+}
+
+.ConForm h3{
+  font-family: bolds !important;
+  margin-bottom: 1em;
+}
+
+.ConForm .form-control {
+  border: none;
+  background-color: #F1F6FA;
+  padding: 1em 2em;
+  border-radius: 10px;
+}
+
+.ConForm{
+  padding-left: 4em;
+}
+
+.contactForm{
+  background-color: #F1F6FA;
+}
+
+.contactCard{
+  background-color: #fff;
+  padding: 3em 2em;
+  border-radius: 20px;
+}
+
+.socialIcon svg{
+  border: none;
+}
+
+.sendBtn .contactBtn{
+  margin-left: 0 !important;
+  padding: 0.5em 3em;
+}
+
+.mapSection{
+  padding-top: 4em;
+  background-color: #F1F6FA;
 }

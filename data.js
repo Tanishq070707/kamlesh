@@ -3,6 +3,7 @@ const industries = [
     title: "Adhesive & Sealants",
     id: "40248964-a573-4d59-8bb2-fb3c32366186",
     icon: "./src/img/appicon/1.svg",
+    bgimage:"./src/img/appbg/1.png",
     details: {
       heading: "ADHESIVE & SEALANTS",
       subHeading: "About Adhesive & Sealants Industry",
@@ -15,6 +16,7 @@ const industries = [
     title: "Automobile",
     id: "f623363a-0a07-454c-94bb-da815f239a62",
     icon: "./src/img/appicon/2.svg",
+    bgimage:"./src/img/appbg/2.png",
     details: {
       heading: "Automobile",
       subHeading: "About Automobile Industry",
@@ -27,6 +29,7 @@ const industries = [
     title: "Cosmetic",
     id: "3c09a996-9931-4278-bc21-17a3131c3fed",
     icon: "./src/img/appicon/3.svg",
+    bgimage:"./src/img/appbg/3.png",
     details: {
       heading: "Cosmetic",
       subHeading: "About Cosmetic Industry",
@@ -39,6 +42,7 @@ const industries = [
     title: "Ceramic",
     id: "e55121d7-f05c-453d-b9d4-bb216b0845be",
     icon: "./src/img/appicon/4.svg",
+    bgimage:"./src/img/appbg/4.png",
     details: {
       heading: "Ceramic",
       subHeading: "About Ceramic Industry",
@@ -51,6 +55,7 @@ const industries = [
     title: "Building Additives/Fillers",
     id: "2d70bbfa-0c87-4f84-8823-befabedc05ef",
     icon: "./src/img/appicon/5.svg",
+    bgimage:"./src/img/appbg/5.png",
     details: {
       heading: "Building Additives/Fillers",
       subHeading: "About Building Additives/Fillers Industry",
@@ -63,6 +68,7 @@ const industries = [
     title: "Detergents & Soaps",
     id: "ab2c9fd9-7ee5-4f7c-a309-e9ca65d372e2",
     icon: "./src/img/appicon/6.svg",
+    bgimage:"./src/img/appbg/6.png",
     details: {
       heading: "Detergents & Soaps",
       subHeading: "About Detergents & Soaps Industry",
@@ -75,6 +81,7 @@ const industries = [
     title: "Masterbatch Filler",
     id: "0462f7de-83fa-4697-a0e7-98b8d6634529",
     icon: "./src/img/appicon/7.svg",
+    bgimage:"./src/img/appbg/7.png",
     details: {
       heading: "Masterbatch Filler",
       subHeading: "About Masterbatch Filler Industry",
@@ -87,6 +94,7 @@ const industries = [
     title: "Paper & Boards",
     id: "f469524b-4574-40ce-a2ac-73968332e285",
     icon: "./src/img/appicon/8.svg",
+    bgimage:"./src/img/appbg/8.png",
     details: {
       heading: "Paper & Boards",
       subHeading: "About Paper & Boards Industry",
@@ -99,6 +107,7 @@ const industries = [
     title: "Paints & Coatings",
     id: "24f52596-4a92-4dfc-97c4-cef0425bc026",
     icon: "./src/img/appicon/9.svg",
+    bgimage:"./src/img/appbg/9.png",
     details: {
       heading: "Paints & Coatings",
       subHeading: "About Paints & Coatings Industry",
@@ -111,6 +120,7 @@ const industries = [
     title: "Plastic & Polymer",
     id: "cdba2271-c455-449b-9a1b-9f98b96cabc0",
     icon: "./src/img/appicon/10.svg",
+    bgimage:"./src/img/appbg/10.png",
     details: {
       heading: "Plastic & Polymer",
       subHeading: "About Plastic & Polymer Industry",
@@ -123,6 +133,7 @@ const industries = [
     title: "Rubber",
     id: "5fd0eeac-54f6-40bf-8fa6-6cfaf91bbe06",
     icon: "./src/img/appicon/11.svg",
+    bgimage:"./src/img/appbg/11.png",
     details: {
       heading: "Rubber",
       subHeading: "About Rubber Industry",
@@ -135,6 +146,7 @@ const industries = [
     title: "Textile",
     id: "213420c3-9c59-4643-85b1-1b6275e16fc0",
     icon: "./src/img/appicon/12.svg",
+    bgimage:"./src/img/appbg/12.png",
     details: {
       heading: "Textile",
       subHeading: "About Textile Industry",
@@ -147,6 +159,7 @@ const industries = [
     title: "Semiconductors/Electronics",
     id: "4489a0ba-0ee8-4434-a91a-01f786902a31",
     icon: "./src/img/appicon/13.svg",
+    bgimage:"./src/img/appbg/13.png",
     details: {
       heading: "Semiconductors/Electronics",
       subHeading: "About Semiconductors/Electronics Industry",
@@ -159,6 +172,7 @@ const industries = [
     title: "Pharma & Drugs",
     id: "0ea2bff7-0288-4fd0-b22d-ef29ea5dbf44",
     icon: "./src/img/appicon/14.svg",
+    bgimage:"./src/img/appbg/14.png",
     details: {
       heading: "Pharma & Drugs",
       subHeading: "About Pharma & Drugs Industry",
@@ -171,6 +185,7 @@ const industries = [
     title: "Cables & Wire",
     id: "763d6e48-b4bd-4f25-b473-e2c5bf0cf7b0",
     icon: "./src/img/appicon/15.svg",
+    bgimage:"./src/img/appbg/15.png",
     details: {
       heading: "Cables & Wire",
       subHeading: "About Cables & Wire Industry",
@@ -183,6 +198,7 @@ const industries = [
     title: "Polymer Masterbatch Additives",
     id: "5ed00108-eda8-4284-b8a8-006ed4d68a14",
     icon: "./src/img/appicon/16.svg",
+    bgimage:"./src/img/appbg/16.png",
     details: {
       heading: "Polymer Masterbatch Additives",
       subHeading: "About Polymer Masterbatch Additives Industry",

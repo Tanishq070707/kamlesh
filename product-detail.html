@@ -45,8 +45,8 @@
                                     <div class="submenu">
                                         <ul>
                                             <li><a href="./about.html">Who We Are</a></li>
-                                            <li><a href="#">Group of Companies</a></li>
-                                            <li><a href="#">Infrastructure</a></li>
+                                            <li><a href="./companies.html">Group of Companies</a></li>
+                                            <li><a href="./infrastructure.html">Infrastructure</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -71,7 +71,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">K MICRO</a>
                                 </li>
-                                <a href="#" class="btn btn-group contactBtn">CONTACT US</a>
+                                <a href="./contact.html" class="btn btn-group contactBtn">CONTACT US</a>
                             </ul>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
 
                     <div class="productDetail">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000">
                                 <div class="productDetailImg">
                                     <img src="./src/img//product/1.png" alt="" id="product-image">
                                 </div>
@@ -101,7 +101,7 @@
 
                     <div class="productDescription">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="productLinks">
                                     <ul id="industry-products">
                                         <li id="industry-product-li" class="industry-product-li-clone">
@@ -110,7 +110,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8" data-aos="fade-left" data-aos-duration="1000">
                                 <div class="productDetails">
                                     <h2><span id="product-sub-heading"></span> for <span
                                             id="industry-sub-heading"></span></h2>
@@ -158,7 +158,7 @@
                                     <div class="footerheadContent">
                                         <p>Everything you need to build the qualified
                                             the legislative changes in the quarry</p>
-                                        <a href="#" class="btn btn-group contactBtn">CONTACT US</a>
+                                        <a href="./contact.html" class="btn btn-group contactBtn">CONTACT US</a>
                                     </div>
                                 </div>
                             </div>
@@ -343,6 +343,10 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="./data.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script>
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get('product-id');
