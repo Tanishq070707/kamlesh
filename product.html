@@ -1,341 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Application</title>
-    <link rel="stylesheet" href="./src/css/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-</head>
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <!-- header  -->
-        <section>
-            <div class="header">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container">
-                        <a class="navbar-brand" href="/"><img src="./src/img/logo.png" /></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="./">HOME</a>
-                                </li>
-                                <li class="nav-item submenus">
-                                    <a class="nav-link" href="./about.html">ABOUT US
-                                        <svg width="16" height="8" viewBox="0 0 16 10" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M2 0L8 6L14 0L16 2L8 10L0 2L2 0Z" fill="#202020" />
-                                        </svg>
-                                    </a>
-                                    <div class="submenu">
-                                        <ul>
-                                            <li><a href="./about.html">Who We Are</a></li>
-                                            <li><a href="./companies.html">Group of Companies</a></li>
-                                            <li><a href="./infrastructure.html">Infrastructure</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="nav-item submenus">
-                                    <a class="nav-link" href="#">PRODUCTS & APPLICATIONS
-                                        <svg width="16" height="8" viewBox="0 0 16 10" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M2 0L8 6L14 0L16 2L8 10L0 2L2 0Z" fill="#202020" />
-                                        </svg>
-                                    </a>
-                                    <div class="submenu">
-                                        <ul>
-                                            <li><a href="./product.html">Products</a></li>
-                                            <li><a href="./application.html">Industries</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./quality.html">QUALITY</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">K MICRO</a>
-                                </li>
-                                <a href="./contact.html" class="btn btn-group contactBtn">CONTACT US</a>
-                            </ul>
-                        </div>
+      <!-- header  -->
+      <section>
+        <div class="header">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="/"
+                ><img src="./src/img/logo.png"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./"
+                      >HOME</a
+                    >
+                  </li>
+                  <li class="nav-item submenus">
+                    <a class="nav-link" href="./about.html"
+                      >ABOUT US
+                      <svg
+                        width="16"
+                        height="8"
+                        viewBox="0 0 16 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M2 0L8 6L14 0L16 2L8 10L0 2L2 0Z"
+                          fill="#202020"
+                        />
+                      </svg>
+                    </a>
+                    <div class="submenu">
+                      <ul>
+                        <li><a href="./about.html">Who We Are</a></li>
+                        <li>
+                          <a href="./companies.html">Group of Companies</a>
+                        </li>
+                        <li>
+                          <a href="./infrastructure.html">Infrastructure</a>
+                        </li>
+                      </ul>
                     </div>
-                </nav>
+                  </li>
+                  <li class="nav-item submenus">
+                    <a class="nav-link" href="#"
+                      >PRODUCTS & APPLICATIONS
+                      <svg
+                        width="16"
+                        height="8"
+                        viewBox="0 0 16 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M2 0L8 6L14 0L16 2L8 10L0 2L2 0Z"
+                          fill="#202020"
+                        />
+                      </svg>
+                    </a>
+                    <div class="submenu">
+                      <ul>
+                        <li><a href="./product.html">Products</a></li>
+                        <li><a href="./application.html">Applications</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./quality.html">QUALITY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">K MICRO</a>
+                  </li>
+                  <a href="./contact.html" class="btn btn-group contactBtn"
+                    >CONTACT US</a
+                  >
+                </ul>
+              </div>
             </div>
-        </section>
-        <!-- header end -->
-        <!-- application crad  -->
-        <section>
-            <div class="applicationSection mainmargin spacing">
-                <div class="container">
-                    <div class="head">
-                        <h1>Our Products</h1>
+          </nav>
+        </div>
+      </section>
+      <!-- header end -->
+      <!-- application crad  -->
+      <section>
+        <div class="applicationSection mainmargin spacing">
+          <div class="container">
+            <div class="head">
+              <h1>Our Products</h1>
+            </div>
+            <div class="dividers"></div>
+            <div class="heading">
+              <span>what we provide</span>
+              <h2>Depth into our products</h2>
+            </div>
+            <div class="productCards">
+              <div class="row appCard-container">
+                <div
+                  class="col-md-3 app-card-clone"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <a class="url" href="./product-application.html">
+                    <div class="similarPCard">
+                      <img
+                        class="product-image"
+                        src="./src/img/product/1.png"
+                        alt=""
+                      />
+                      <h5 class="title">Talc</h5>
                     </div>
-                    <div class="dividers"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- application crad end -->
+
+      <!-- about product section  -->
+      <section>
+        <div class="aboutProductSection spacing pt-0">
+          <div class="productSec">
+            <img src="./src/img/productCommonImg.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- about product section end -->
+
+      <!-- footer section  -->
+      <section>
+        <footer>
+          <div class="footer">
+            <div class="container">
+              <div class="footerHead">
+                <div class="row">
+                  <div class="col-md-6">
                     <div class="heading">
-                        <span>what we provide</span>
-                        <h2>Depth into our products</h2>
+                      <span>Let’s start together.</span>
+                      <h2>
+                        Reach out to<br />
+                        Kamlesh Minerals!
+                      </h2>
                     </div>
-                    <div class="productCards">
-                        <div class="row appCard-container">
-                            <div class="col-md-3 app-card-clone">
-                                <a class="url" href="./product-application.html">
-                                    <div class="similarPCard">
-                                        <img class="product-image" src="./src/img/product/1.png" alt="">
-                                        <h5 class="title">Talc</h5>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col-md-6 m-auto">
+                    <div class="footerheadContent">
+                      <p>
+                        Everything you need to build the qualified the
+                        legislative changes in the quarry
+                      </p>
+                      <a href="#" class="btn btn-group contactBtn"
+                        >CONTACT US</a
+                      >
                     </div>
+                  </div>
                 </div>
+              </div>
+              <div class="divider"></div>
+              <div class="footerDetail">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="quicklinks">
+                      <h4>Quick links</h4>
+                      <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./application.html">Applications</a></li>
+                        <li><a href="./product.html">Products</a></li>
+                        <li><a href="./quality.html">Quality Control</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="">K Micro</a></li>
+                        <li><a href="./companies.html">Other Divisions</a></li>
+                        <li><a href="./infrastructure.html">Infrastructure</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="quicklinkss">
+                      <h4>Group of Companies</h4>
+                      <ul>
+                        <li><a href="">K Micro Minerals</a></li>
+                        <li><a href="./companies.html">Kamlesh Engineers</a></li>
+                        <li><a href="./companies.html">Kamlesh Polychem</a></li>
+                        <li><a href="./companies.html">Kamlesh Bioverse</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="address">
+                      <h4>Reach Out to Us</h4>
+                      <div class="addressDetail">
+                        <img src="./src/img/location.png" alt="" />
+                        <p>
+                          25 - E, Industrial Area, Pratap Nagar, Udaipur 313002,
+                          Rajasthan, India
+                        </p>
+                      </div>
+                      <div class="addressDetail mail">
+                        <img
+                          style="width: 15% !important"
+                          src="./src/img/mail.png"
+                          alt=""
+                        />
+                        <div>
+                          <p><a href="">kjaroli@gmail.com</a></p>
+                          <p><a href="">info@kamleshminerals.com</a></p>
+                        </div>
+                      </div>
+                      <div class="addressDetail">
+                        <img src="./src/img/Phone.png" alt="" />
+                        <p>
+                          (+91)-8239335777, +91(294)-2492180 +91(294)-2490037
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="footContent">
+                      <div class="location">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.991020521576!2d73.74458357218877!3d24.589506107683242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e6080aa77b07%3A0x5192b7b1cdaed112!2sKamlesh%20Minerals!5e0!3m2!1sen!2sin!4v1717501179210!5m2!1sen!2sin"
+                          width="100%"
+                          height="140"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                      </div>
+                      <div class="socialLink">
+                        <h4>Social Info</h4>
+                        <div class="socialIcon">
+                          <div class="sIcon">
+                            <a href="">
+                              <svg
+                                width="46"
+                                height="45"
+                                viewBox="0 0 46 45"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <rect
+                                  x="0.824295"
+                                  y="0.608108"
+                                  width="43.7838"
+                                  height="43.7838"
+                                  rx="21.8919"
+                                  fill="#181818"
+                                />
+                                <rect
+                                  x="0.824295"
+                                  y="0.608108"
+                                  width="43.7838"
+                                  height="43.7838"
+                                  rx="21.8919"
+                                  stroke="black"
+                                  stroke-width="1.21622"
+                                />
+                                <g clip-path="url(#clip0_42_764)">
+                                  <path
+                                    d="M27.5712 13.5144V16.375H25.8783C25.2556 16.375 24.8339 16.5047 24.6134 16.7642C24.3929 17.0236 24.2826 17.4128 24.2826 17.9317V19.9944H27.4739L27.0458 23.2052H24.2826V31.4561H20.955V23.2052H18.1918V19.9944H20.955V17.6204C20.955 16.2712 21.3312 15.2269 22.0837 14.4874C22.8361 13.7479 23.8415 13.3782 25.0999 13.3782C26.1637 13.3782 26.9874 13.4236 27.5712 13.5144Z"
+                                    fill="white"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_42_764">
+                                    <rect
+                                      width="19.4595"
+                                      height="19.4595"
+                                      fill="white"
+                                      transform="matrix(1 0 0 -1 12.9864 32.8379)"
+                                    />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </a>
+                          </div>
+                          <div class="sIcon">
+                            <a href="">
+                              <svg
+                                width="46"
+                                height="45"
+                                viewBox="0 0 46 45"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <rect
+                                  x="1.55403"
+                                  y="0.608108"
+                                  width="43.7838"
+                                  height="43.7838"
+                                  rx="21.8919"
+                                  fill="#181818"
+                                />
+                                <rect
+                                  x="1.55403"
+                                  y="0.608108"
+                                  width="43.7838"
+                                  height="43.7838"
+                                  rx="21.8919"
+                                  stroke="black"
+                                  stroke-width="1.21622"
+                                />
+                                <path
+                                  d="M32.0079 17.8151C31.5279 18.5156 30.9442 19.1189 30.2566 19.6248V20.0724C30.2566 21.0194 30.1204 21.9599 29.8479 22.894C29.5755 23.8281 29.1604 24.7297 28.6025 25.5989C28.0447 26.4681 27.3766 27.227 26.5982 27.8756C25.8198 28.5243 24.8858 29.0562 23.796 29.4713C22.7063 29.8864 21.5323 30.081 20.2739 30.0551C18.315 30.0551 16.5247 29.5297 14.9031 28.4789C15.1496 28.5048 15.4285 28.5178 15.7398 28.5178C17.3744 28.5178 18.8274 28.0183 20.0988 27.0194C19.3333 27.0064 18.6523 26.7729 18.0555 26.3189C17.4588 25.8648 17.0436 25.2875 16.8101 24.587C17.0566 24.6259 17.2771 24.6454 17.4717 24.6454C17.7831 24.6454 18.0944 24.6064 18.4058 24.5286C17.5885 24.3599 16.9139 23.9578 16.382 23.3221C15.8501 22.6864 15.5842 21.9405 15.5842 21.0843V21.0454C16.0771 21.3178 16.609 21.467 17.1798 21.4929C16.6998 21.1686 16.3171 20.7535 16.0317 20.2475C15.7463 19.7416 15.6036 19.1772 15.6036 18.5545C15.6036 17.9318 15.7658 17.3481 16.0901 16.8032C16.9723 17.8799 18.036 18.7427 19.2815 19.3913C20.5269 20.0399 21.876 20.3967 23.329 20.4616C23.2642 20.1891 23.2317 19.9232 23.2317 19.6637C23.2317 18.6908 23.5755 17.867 24.2631 17.1924C24.9506 16.5178 25.7744 16.174 26.7344 16.161C27.7593 16.161 28.6155 16.5308 29.3031 17.2702C30.0944 17.1145 30.8404 16.8291 31.5409 16.414C31.2685 17.2443 30.7496 17.8929 29.9842 18.3599C30.6588 18.2821 31.3333 18.1005 32.0079 17.8151Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </a>
+                          </div>
+                          <div class="sIcon">
+                            <a href="">
+                              <svg
+                                width="46"
+                                height="45"
+                                viewBox="0 0 46 45"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <rect
+                                  x="1.28377"
+                                  y="0.608108"
+                                  width="43.7838"
+                                  height="43.7838"
+                                  rx="21.8919"
+                                  fill="#181818"
+                                />
+                                <rect
+                                  x="1.28377"
+                                  y="0.608108"
+                                  width="43.7838"
+                                  height="43.7838"
+                                  rx="21.8919"
+                                  stroke="black"
+                                  stroke-width="1.21622"
+                                />
+                                <path
+                                  d="M18.6317 20.1698V30.9309H15.0512V20.1698H18.6317ZM18.8652 16.8423C18.8652 17.3741 18.6771 17.8152 18.3009 18.1655C17.9247 18.5158 17.4382 18.6909 16.8414 18.6909H16.822C16.2252 18.6909 15.7452 18.5158 15.382 18.1655C15.0187 17.8152 14.8371 17.3741 14.8371 16.8423C14.8371 16.3104 15.0252 15.8693 15.4014 15.519C15.7776 15.1687 16.2641 14.9936 16.8609 14.9936C17.4576 14.9936 17.9376 15.1687 18.3009 15.519C18.6641 15.8693 18.8522 16.3104 18.8652 16.8423ZM31.5139 24.7623V30.9309H27.9528V25.1709C27.9528 24.4055 27.8036 23.8087 27.5052 23.3806C27.2068 22.9525 26.7463 22.7385 26.1236 22.7385C25.6695 22.7385 25.2933 22.8617 24.9949 23.1082C24.6966 23.3547 24.463 23.666 24.2944 24.0423C24.2166 24.2628 24.1776 24.5547 24.1776 24.9179V30.9309H20.5971C20.6101 28.0379 20.6166 25.6963 20.6166 23.906V20.6952L20.5971 20.1698H24.1776V21.7266H24.1582C24.3009 21.4931 24.4501 21.292 24.6057 21.1233C24.7614 20.9547 24.9625 20.7666 25.209 20.559C25.4555 20.3514 25.7733 20.1958 26.1625 20.092C26.5517 19.9882 26.9668 19.9298 27.4079 19.9169C28.6403 19.9169 29.6328 20.3255 30.3852 21.1428C31.1376 21.9601 31.5139 23.1666 31.5139 24.7623Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </a>
+                          </div>
+                          <div class="sIcon">
+                            <a href="">
+                              <svg
+                                width="46"
+                                height="45"
+                                viewBox="0 0 46 45"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <rect
+                                  x="1.0135"
+                                  y="0.608108"
+                                  width="43.7838"
+                                  height="43.7838"
+                                  rx="21.8919"
+                                  fill="#181818"
+                                />
+                                <rect
+                                  x="1.0135"
+                                  y="0.608108"
+                                  width="43.7838"
+                                  height="43.7838"
+                                  rx="21.8919"
+                                  stroke="black"
+                                  stroke-width="1.21622"
+                                />
+                                <g clip-path="url(#clip0_42_773)">
+                                  <path
+                                    d="M19.8614 21.9999C19.8614 20.5425 21.0425 19.3608 22.4999 19.3608C23.9572 19.3608 25.139 20.5425 25.139 21.9999C25.139 23.4573 23.9572 24.639 22.4999 24.639C21.0425 24.639 19.8614 23.4573 19.8614 21.9999ZM18.4347 21.9999C18.4347 24.2451 20.2547 26.065 22.4999 26.065C24.745 26.065 26.565 24.2451 26.565 21.9999C26.565 19.7547 24.745 17.9348 22.4999 17.9348C20.2547 17.9348 18.4347 19.7547 18.4347 21.9999ZM25.7759 17.7736C25.7759 18.298 26.2011 18.7239 26.7262 18.7239C27.2505 18.7239 27.6764 18.298 27.6764 17.7736C27.6764 17.2493 27.2511 16.824 26.7262 16.824C26.2011 16.824 25.7759 17.2493 25.7759 17.7736ZM19.3012 28.4438C18.5294 28.4087 18.1099 28.2802 17.8311 28.1714C17.4615 28.0276 17.198 27.8562 16.9205 27.5793C16.6436 27.3024 16.4716 27.039 16.3283 26.6693C16.2196 26.3905 16.0911 25.9711 16.0559 25.1992C16.0175 24.3647 16.0099 24.114 16.0099 21.9999C16.0099 19.8858 16.0182 19.6358 16.0559 18.8006C16.0911 18.0288 16.2202 17.6099 16.3283 17.3305C16.4722 16.9609 16.6436 16.6974 16.9205 16.4199C17.1974 16.143 17.4608 15.971 17.8311 15.8277C18.1099 15.719 18.5294 15.5905 19.3012 15.5553C20.1357 15.517 20.3864 15.5093 22.4999 15.5093C24.6139 15.5093 24.864 15.5176 25.6991 15.5553C26.471 15.5905 26.8898 15.7197 27.1693 15.8277C27.5389 15.971 27.8024 16.143 28.0799 16.4199C28.3568 16.6968 28.5282 16.9609 28.672 17.3305C28.7808 17.6093 28.9093 18.0288 28.9445 18.8006C28.9828 19.6358 28.9905 19.8858 28.9905 21.9999C28.9905 24.1134 28.9828 24.3641 28.9445 25.1992C28.9093 25.9711 28.7801 26.3905 28.672 26.6693C28.5282 27.039 28.3568 27.3024 28.0799 27.5793C27.803 27.8562 27.5389 28.0276 27.1693 28.1714C26.8904 28.2802 26.471 28.4087 25.6991 28.4438C24.8646 28.4822 24.6139 28.4899 22.4999 28.4899C20.3864 28.4899 20.1357 28.4822 19.3012 28.4438ZM19.236 14.1312C18.3932 14.1696 17.8176 14.3032 17.3144 14.4989C16.7938 14.701 16.3526 14.9721 15.912 15.4121C15.4721 15.852 15.2009 16.2933 14.9988 16.8144C14.8032 17.3177 14.6695 17.8932 14.6312 18.7361C14.5921 19.5802 14.5832 19.85 14.5832 21.9999C14.5832 24.1498 14.5921 24.4196 14.6312 25.2638C14.6695 26.1066 14.8032 26.6822 14.9988 27.1854C15.2009 27.7059 15.4714 28.1478 15.912 28.5878C16.352 29.0277 16.7932 29.2982 17.3144 29.501C17.8183 29.6966 18.3932 29.8303 19.236 29.8686C20.0807 29.907 20.35 29.9166 22.4999 29.9166C24.6504 29.9166 24.9196 29.9076 25.7637 29.8686C26.6066 29.8303 27.1821 29.6966 27.6854 29.501C28.2059 29.2982 28.6471 29.0277 29.0877 28.5878C29.5276 28.1478 29.7982 27.7059 30.0009 27.1854C30.1965 26.6822 30.3309 26.1066 30.3685 25.2638C30.4069 24.419 30.4159 24.1498 30.4159 21.9999C30.4159 19.85 30.4069 19.5802 30.3685 18.7361C30.3302 17.8932 30.1965 17.3177 30.0009 16.8144C29.7982 16.2939 29.5276 15.8527 29.0877 15.4121C28.6478 14.9721 28.2059 14.701 27.686 14.4989C27.1821 14.3032 26.6065 14.1689 25.7644 14.1312C24.9203 14.0928 24.6504 14.0833 22.5005 14.0833C20.35 14.0833 20.0807 14.0922 19.236 14.1312Z"
+                                    fill="white"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_42_773">
+                                    <rect
+                                      width="19"
+                                      height="19"
+                                      fill="white"
+                                      transform="translate(12.9999 12.5)"
+                                    />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-        <!-- application crad end -->
-
-        <!-- about product section  -->
-        <section>
-            <div class="aboutProductSection spacing pt-0">
-                <div class="productSec">
-                    <img src="./src/img/productCommonImg.png" alt="">
-                </div>
+            <div class="talkSection">
+              <div class="galleryBg"></div>
             </div>
-        </section>
-        <!-- about product section end -->
-
-        <!-- footer section  -->
-        <section>
-            <footer>
-                <div class="footer">
-                    <div class="container">
-                        <div class="footerHead">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="heading">
-                                        <span>Let’s start together.</span>
-                                        <h2>Reach out to<br>
-                                            Kamlesh Minerals!</h2>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 m-auto">
-                                    <div class="footerheadContent">
-                                        <p>Everything you need to build the qualified
-                                            the legislative changes in the quarry</p>
-                                        <a href="./contact.html" class="btn btn-group contactBtn">CONTACT US</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="footerDetail">
-                            <div class="row">
-
-                                <div class="col-md-3">
-                                    <div class="quicklinks">
-                                        <h4>Quick links</h4>
-                                        <ul>
-                                            <li><a href="">Home</a></li>
-                                            <li><a href="">About Us</a></li>
-                                            <li><a href="">Industries</a></li>
-                                            <li><a href="">Products</a></li>
-                                            <li><a href="">Quality Control</a></li>
-                                        </ul>
-                                        <ul>
-                                            <li><a href="">K Micro</a></li>
-                                            <li><a href="">Other Division</a></li>
-                                            <li><a href="">Infrastructure</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="quicklinkss">
-                                        <h4>Group of Companies</h4>
-                                        <ul>
-                                            <li><a href="">K Micro Minerals</a></li>
-                                            <li><a href="">Kamlesh Engineers</a></li>
-                                            <li><a href="">Kamlesh Polychem</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="address">
-                                        <h4>Reach Out to Us</h4>
-                                        <div class="addressDetail">
-                                            <img src="./src/img/location.png" alt="">
-                                            <p>25 - E, Industrial Area, Pratap Nagar, Udaipur 313002, Rajasthan, India
-                                            </p>
-                                        </div>
-                                        <div class="addressDetail mail">
-                                            <img style="width: 15% !important;" src="./src/img/mail.png" alt="">
-                                            <div>
-                                                <p><a href="">kjaroli@gmail.com</a>
-                                                </p>
-                                                <p><a href="">info@kamleshminerals.com</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="addressDetail">
-                                            <img src="./src/img/Phone.png" alt="">
-                                            <p>(+91)-8239335777, +91(294)-2492180
-                                                +91(294)-2490037
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="footContent">
-                                        <div class="location">
-                                            <iframe
-                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.991020521576!2d73.74458357218877!3d24.589506107683242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e6080aa77b07%3A0x5192b7b1cdaed112!2sKamlesh%20Minerals!5e0!3m2!1sen!2sin!4v1717501179210!5m2!1sen!2sin"
-                                                width="100%" height="140" style="border:0;" allowfullscreen=""
-                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                        </div>
-                                        <div class="socialLink">
-                                            <h4>Social Info</h4>
-                                            <div class="socialIcon">
-                                                <div class="sIcon">
-                                                    <a href="">
-                                                        <svg width="46" height="45" viewBox="0 0 46 45" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <rect x="0.824295" y="0.608108" width="43.7838"
-                                                                height="43.7838" rx="21.8919" fill="#181818" />
-                                                            <rect x="0.824295" y="0.608108" width="43.7838"
-                                                                height="43.7838" rx="21.8919" stroke="black"
-                                                                stroke-width="1.21622" />
-                                                            <g clip-path="url(#clip0_42_764)">
-                                                                <path
-                                                                    d="M27.5712 13.5144V16.375H25.8783C25.2556 16.375 24.8339 16.5047 24.6134 16.7642C24.3929 17.0236 24.2826 17.4128 24.2826 17.9317V19.9944H27.4739L27.0458 23.2052H24.2826V31.4561H20.955V23.2052H18.1918V19.9944H20.955V17.6204C20.955 16.2712 21.3312 15.2269 22.0837 14.4874C22.8361 13.7479 23.8415 13.3782 25.0999 13.3782C26.1637 13.3782 26.9874 13.4236 27.5712 13.5144Z"
-                                                                    fill="white" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_42_764">
-                                                                    <rect width="19.4595" height="19.4595" fill="white"
-                                                                        transform="matrix(1 0 0 -1 12.9864 32.8379)" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                                <div class="sIcon">
-                                                    <a href="">
-                                                        <svg width="46" height="45" viewBox="0 0 46 45" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <rect x="1.55403" y="0.608108" width="43.7838"
-                                                                height="43.7838" rx="21.8919" fill="#181818" />
-                                                            <rect x="1.55403" y="0.608108" width="43.7838"
-                                                                height="43.7838" rx="21.8919" stroke="black"
-                                                                stroke-width="1.21622" />
-                                                            <path
-                                                                d="M32.0079 17.8151C31.5279 18.5156 30.9442 19.1189 30.2566 19.6248V20.0724C30.2566 21.0194 30.1204 21.9599 29.8479 22.894C29.5755 23.8281 29.1604 24.7297 28.6025 25.5989C28.0447 26.4681 27.3766 27.227 26.5982 27.8756C25.8198 28.5243 24.8858 29.0562 23.796 29.4713C22.7063 29.8864 21.5323 30.081 20.2739 30.0551C18.315 30.0551 16.5247 29.5297 14.9031 28.4789C15.1496 28.5048 15.4285 28.5178 15.7398 28.5178C17.3744 28.5178 18.8274 28.0183 20.0988 27.0194C19.3333 27.0064 18.6523 26.7729 18.0555 26.3189C17.4588 25.8648 17.0436 25.2875 16.8101 24.587C17.0566 24.6259 17.2771 24.6454 17.4717 24.6454C17.7831 24.6454 18.0944 24.6064 18.4058 24.5286C17.5885 24.3599 16.9139 23.9578 16.382 23.3221C15.8501 22.6864 15.5842 21.9405 15.5842 21.0843V21.0454C16.0771 21.3178 16.609 21.467 17.1798 21.4929C16.6998 21.1686 16.3171 20.7535 16.0317 20.2475C15.7463 19.7416 15.6036 19.1772 15.6036 18.5545C15.6036 17.9318 15.7658 17.3481 16.0901 16.8032C16.9723 17.8799 18.036 18.7427 19.2815 19.3913C20.5269 20.0399 21.876 20.3967 23.329 20.4616C23.2642 20.1891 23.2317 19.9232 23.2317 19.6637C23.2317 18.6908 23.5755 17.867 24.2631 17.1924C24.9506 16.5178 25.7744 16.174 26.7344 16.161C27.7593 16.161 28.6155 16.5308 29.3031 17.2702C30.0944 17.1145 30.8404 16.8291 31.5409 16.414C31.2685 17.2443 30.7496 17.8929 29.9842 18.3599C30.6588 18.2821 31.3333 18.1005 32.0079 17.8151Z"
-                                                                fill="white" />
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                                <div class="sIcon">
-                                                    <a href="">
-                                                        <svg width="46" height="45" viewBox="0 0 46 45" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <rect x="1.28377" y="0.608108" width="43.7838"
-                                                                height="43.7838" rx="21.8919" fill="#181818" />
-                                                            <rect x="1.28377" y="0.608108" width="43.7838"
-                                                                height="43.7838" rx="21.8919" stroke="black"
-                                                                stroke-width="1.21622" />
-                                                            <path
-                                                                d="M18.6317 20.1698V30.9309H15.0512V20.1698H18.6317ZM18.8652 16.8423C18.8652 17.3741 18.6771 17.8152 18.3009 18.1655C17.9247 18.5158 17.4382 18.6909 16.8414 18.6909H16.822C16.2252 18.6909 15.7452 18.5158 15.382 18.1655C15.0187 17.8152 14.8371 17.3741 14.8371 16.8423C14.8371 16.3104 15.0252 15.8693 15.4014 15.519C15.7776 15.1687 16.2641 14.9936 16.8609 14.9936C17.4576 14.9936 17.9376 15.1687 18.3009 15.519C18.6641 15.8693 18.8522 16.3104 18.8652 16.8423ZM31.5139 24.7623V30.9309H27.9528V25.1709C27.9528 24.4055 27.8036 23.8087 27.5052 23.3806C27.2068 22.9525 26.7463 22.7385 26.1236 22.7385C25.6695 22.7385 25.2933 22.8617 24.9949 23.1082C24.6966 23.3547 24.463 23.666 24.2944 24.0423C24.2166 24.2628 24.1776 24.5547 24.1776 24.9179V30.9309H20.5971C20.6101 28.0379 20.6166 25.6963 20.6166 23.906V20.6952L20.5971 20.1698H24.1776V21.7266H24.1582C24.3009 21.4931 24.4501 21.292 24.6057 21.1233C24.7614 20.9547 24.9625 20.7666 25.209 20.559C25.4555 20.3514 25.7733 20.1958 26.1625 20.092C26.5517 19.9882 26.9668 19.9298 27.4079 19.9169C28.6403 19.9169 29.6328 20.3255 30.3852 21.1428C31.1376 21.9601 31.5139 23.1666 31.5139 24.7623Z"
-                                                                fill="white" />
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                                <div class="sIcon">
-                                                    <a href="">
-                                                        <svg width="46" height="45" viewBox="0 0 46 45" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <rect x="1.0135" y="0.608108" width="43.7838"
-                                                                height="43.7838" rx="21.8919" fill="#181818" />
-                                                            <rect x="1.0135" y="0.608108" width="43.7838"
-                                                                height="43.7838" rx="21.8919" stroke="black"
-                                                                stroke-width="1.21622" />
-                                                            <g clip-path="url(#clip0_42_773)">
-                                                                <path
-                                                                    d="M19.8614 21.9999C19.8614 20.5425 21.0425 19.3608 22.4999 19.3608C23.9572 19.3608 25.139 20.5425 25.139 21.9999C25.139 23.4573 23.9572 24.639 22.4999 24.639C21.0425 24.639 19.8614 23.4573 19.8614 21.9999ZM18.4347 21.9999C18.4347 24.2451 20.2547 26.065 22.4999 26.065C24.745 26.065 26.565 24.2451 26.565 21.9999C26.565 19.7547 24.745 17.9348 22.4999 17.9348C20.2547 17.9348 18.4347 19.7547 18.4347 21.9999ZM25.7759 17.7736C25.7759 18.298 26.2011 18.7239 26.7262 18.7239C27.2505 18.7239 27.6764 18.298 27.6764 17.7736C27.6764 17.2493 27.2511 16.824 26.7262 16.824C26.2011 16.824 25.7759 17.2493 25.7759 17.7736ZM19.3012 28.4438C18.5294 28.4087 18.1099 28.2802 17.8311 28.1714C17.4615 28.0276 17.198 27.8562 16.9205 27.5793C16.6436 27.3024 16.4716 27.039 16.3283 26.6693C16.2196 26.3905 16.0911 25.9711 16.0559 25.1992C16.0175 24.3647 16.0099 24.114 16.0099 21.9999C16.0099 19.8858 16.0182 19.6358 16.0559 18.8006C16.0911 18.0288 16.2202 17.6099 16.3283 17.3305C16.4722 16.9609 16.6436 16.6974 16.9205 16.4199C17.1974 16.143 17.4608 15.971 17.8311 15.8277C18.1099 15.719 18.5294 15.5905 19.3012 15.5553C20.1357 15.517 20.3864 15.5093 22.4999 15.5093C24.6139 15.5093 24.864 15.5176 25.6991 15.5553C26.471 15.5905 26.8898 15.7197 27.1693 15.8277C27.5389 15.971 27.8024 16.143 28.0799 16.4199C28.3568 16.6968 28.5282 16.9609 28.672 17.3305C28.7808 17.6093 28.9093 18.0288 28.9445 18.8006C28.9828 19.6358 28.9905 19.8858 28.9905 21.9999C28.9905 24.1134 28.9828 24.3641 28.9445 25.1992C28.9093 25.9711 28.7801 26.3905 28.672 26.6693C28.5282 27.039 28.3568 27.3024 28.0799 27.5793C27.803 27.8562 27.5389 28.0276 27.1693 28.1714C26.8904 28.2802 26.471 28.4087 25.6991 28.4438C24.8646 28.4822 24.6139 28.4899 22.4999 28.4899C20.3864 28.4899 20.1357 28.4822 19.3012 28.4438ZM19.236 14.1312C18.3932 14.1696 17.8176 14.3032 17.3144 14.4989C16.7938 14.701 16.3526 14.9721 15.912 15.4121C15.4721 15.852 15.2009 16.2933 14.9988 16.8144C14.8032 17.3177 14.6695 17.8932 14.6312 18.7361C14.5921 19.5802 14.5832 19.85 14.5832 21.9999C14.5832 24.1498 14.5921 24.4196 14.6312 25.2638C14.6695 26.1066 14.8032 26.6822 14.9988 27.1854C15.2009 27.7059 15.4714 28.1478 15.912 28.5878C16.352 29.0277 16.7932 29.2982 17.3144 29.501C17.8183 29.6966 18.3932 29.8303 19.236 29.8686C20.0807 29.907 20.35 29.9166 22.4999 29.9166C24.6504 29.9166 24.9196 29.9076 25.7637 29.8686C26.6066 29.8303 27.1821 29.6966 27.6854 29.501C28.2059 29.2982 28.6471 29.0277 29.0877 28.5878C29.5276 28.1478 29.7982 27.7059 30.0009 27.1854C30.1965 26.6822 30.3309 26.1066 30.3685 25.2638C30.4069 24.419 30.4159 24.1498 30.4159 21.9999C30.4159 19.85 30.4069 19.5802 30.3685 18.7361C30.3302 17.8932 30.1965 17.3177 30.0009 16.8144C29.7982 16.2939 29.5276 15.8527 29.0877 15.4121C28.6478 14.9721 28.2059 14.701 27.686 14.4989C27.1821 14.3032 26.6065 14.1689 25.7644 14.1312C24.9203 14.0928 24.6504 14.0833 22.5005 14.0833C20.35 14.0833 20.0807 14.0922 19.236 14.1312Z"
-                                                                    fill="white" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_42_773">
-                                                                    <rect width="19" height="19" fill="white"
-                                                                        transform="translate(12.9999 12.5)" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+            <div class="container">
+              <div class="copywrite">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="termsconditon">
+                      <p><a href="">Terms & Conditions &nbsp;</a></p>
+                      <p><a href="">/&nbsp;&nbsp;Privacy Policy</a></p>
                     </div>
-                    <div class="talkSection">
-                        <div class="galleryBg"></div>
+                  </div>
+                  <div class="col-md-7 m-auto">
+                    <div class="copy">
+                      <p>
+                        Copyright © 2024 Kamlesh Minerals. Designed By
+                        Jaivardhan Singh
+                      </p>
                     </div>
-                    <div class="container">
-                        <div class="copywrite">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="termsconditon">
-                                        <p><a href="">Terms & Conditions &nbsp;</a></p>
-                                        <p><a href="">/&nbsp;&nbsp;Privacy Policy</a></p>
-                                    </div>
-                                </div>
-                                <div class="col-md-7 m-auto">
-                                    <div class="copy">
-                                        <p>Copyright © 2024 Kamlesh Minerals. Designed By Jaivardhan Singh</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-            </footer>
-        </section>
-        <!-- footer section end -->
-
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+      <!-- footer section end -->
     </div>
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="./data.js"></script>
-<script>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./data.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
     products.forEach((product, index) => {
-        const targetCard = index == 0 ? ".app-card-clone" : $(".app-card-clone").clone();
-        if (index != 0) { $(targetCard).removeClass('app-card-clone'); }
+      const targetCard =
+        index == 0 ? ".app-card-clone" : $(".app-card-clone").clone();
+      if (index != 0) {
+        $(targetCard).removeClass("app-card-clone");
+      }
 
-        const title = $(targetCard).find('.title');
-        const url = $(targetCard).find('.url');
-        const productImage = $(targetCard).find('.product-image');
+      const title = $(targetCard).find(".title");
+      const url = $(targetCard).find(".url");
+      const productImage = $(targetCard).find(".product-image");
 
-        $(title).text(product.title);
-        $(url).attr("href", `./product-application.html?id=${product.id}`);
-        $(productImage).attr("src", product.image);
+      $(title).text(product.title);
+      $(url).attr("href", `./product-application.html?id=${product.id}`);
+      $(productImage).attr("src", product.image);
 
-        if (index != 0) { $('.appCard-container').append(targetCard); }
+      if (index != 0) {
+        $(".appCard-container").append(targetCard);
+      }
     });
-</script>
-
+  </script>
+ 
 </html>

@@ -1196,3 +1196,7 @@ p {
   padding-top: 4em;
   background-color: #F1F6FA;
 }
+
+.certificateImg img{
+  border-radius: 20px;
+}
