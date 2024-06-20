@@ -208,7 +208,10 @@
                       data-aos="fade-up"
                       data-aos-duration="1000"
                     >
-                      <div class="applicationCards" style="background-image: url(./src/img/appbg/1.png);">
+                      <div
+                        class="applicationCards"
+                        style="background-image: url(./src/img/appbg/1.png)"
+                      >
                         <div class="row">
                           <div class="col-md-12 m-auto">
                             <div class="appIcon">
@@ -231,6 +234,69 @@
         </div>
       </section>
       <!-- application crad end -->
+
+      <!-- form section  -->
+      <section>
+        <div class="productForm">
+          <div class="container">
+            <div class="proForm">
+              <div class="heading">
+                <h2>For Any Enquiry Contact Us</h2>
+              </div>
+              <form action="">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mb-4">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="Your name*"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-4">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="Phone No.*"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-4">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="Email*"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-4">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="Message*"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="sendBtn">
+                      <button class="btn btn-group contactBtn">SEND</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- form section end -->
 
       <!-- footer section  -->
       <section>
@@ -277,7 +343,9 @@
                       <ul>
                         <li><a href="">K Micro</a></li>
                         <li><a href="./companies.html">Other Divisions</a></li>
-                        <li><a href="./infrastructure.html">Infrastructure</a></li>
+                        <li>
+                          <a href="./infrastructure.html">Infrastructure</a>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -286,7 +354,9 @@
                       <h4>Group of Companies</h4>
                       <ul>
                         <li><a href="">K Micro Minerals</a></li>
-                        <li><a href="./companies.html">Kamlesh Engineers</a></li>
+                        <li>
+                          <a href="./companies.html">Kamlesh Engineers</a>
+                        </li>
                         <li><a href="./companies.html">Kamlesh Polychem</a></li>
                         <li><a href="./companies.html">Kamlesh Bioverse</a></li>
                       </ul>
@@ -574,7 +644,7 @@
         `./product-detail.html?industry-id=${industry.id}&product-id=${id}`
       );
       $(industryIcon).attr("src", industry.icon);
-      $(applicationcard).css("background-image",`url(${industry.bgimage})`);
+      $(applicationcard).css("background-image", `url(${industry.bgimage})`);
 
       if (index != 0) {
         $(".appCard-container").append(targetCard);

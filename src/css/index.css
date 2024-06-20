@@ -1168,7 +1168,36 @@ p {
   padding: 1em 2em;
   border-radius: 10px;
 }
+.proForm .form-control {
+  border: none;
+  background-color: #fff;
+  padding: 1em 2em;
+  border-radius: 10px;
+}
 
+.proForm .form-control::placeholder{
+  font-size: 20px;
+}
+
+.proForm{
+  background-color: #F1F6FA;
+  padding: 3em;
+  border-radius: 20px;
+  text-align: center;
+}
+.proForm .sendBtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.proForm h2{
+  margin-top: 0em;
+  margin-bottom: 0.7em;
+}
+.productForm{
+  margin-bottom: 4em;
+}
 .ConForm{
   padding-left: 4em;
 }
