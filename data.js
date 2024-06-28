@@ -8,7 +8,7 @@ const industries = [
       heading: "ADHESIVE & SEALANTS",
       subHeading: "About Adhesive & Sealants Industry",
       content:
-        " At Kamlesh Minerals, we understand that the integrity of adhesives and sealants is paramount across industries. Our comprehensive range of meticulously sourced minerals and additives is tailored to enhance the performance and longevity of adhesive and sealant formulations. Whether it's bonding critical components in aerospace or sealing joints in construction, our products ensure superior adhesion, durability, and resistance to environmental factors. With Kamlesh Minerals, you can trust in the strength of your bonds and the integrity of your seals, driving confidence in every application.",
+        "At Kamlesh Minerals, our meticulously sourced industrial minerals and specialty additives are designed to enhance the performance and longevity of adhesive and sealant formulations. Bonding critical components in aerospace or sealing joints in construction, our products ensure superior adhesion, durability, and resistance to environmental factors. Trust Kamlesh Minerals for robust bonds and reliable seals, driving confidence in every application.",
       image: "./src/img/industry/1.png",
     },
   },
@@ -21,7 +21,7 @@ const industries = [
       heading: "Automobile",
       subHeading: "About Automobile Industry",
       content:
-        "Drive innovation and performance with Kamlesh Minerals' automotive solutions. From enhancing the structural integrity of vehicle components to improving the aesthetic appeal of automotive finishes, our premium minerals and additives are engineered to meet the exacting standards of the automotive industry. Whether it's lightweight fillers for advanced composites or corrosion-resistant coatings for exterior surfaces, our products empower automotive manufacturers to push the boundaries of design, efficiency, and safety.",
+        "Our premium minerals and additives are engineered to meet the stringent standards of the automotive industry. Enhancing the structural integrity of vehicle components and improving the aesthetic appeal of automotive finishes, our products empower automotive manufacturers to push the boundaries of design, efficiency, and safety. Lightweight fillers for advanced composites or corrosion-resistant coatings, Kamlesh Minerals ensures exceptional quality and performance.",
       image: "./src/img/industry/2.png",
     },
   },
@@ -34,7 +34,7 @@ const industries = [
       heading: "Cosmetic",
       subHeading: "About Cosmetic Industry",
       content:
-        "Elevate beauty formulations with Kamlesh Minerals' exquisite range of cosmetic ingredients. Delicately sourced and meticulously processed, our minerals and additives redefine luxury and efficacy in cosmetics. From enhancing the texture and spreadability of creams and lotions to imparting vibrant pigments in makeup formulations, our products reflect a commitment to quality, purity, and innovation. With Kamlesh Minerals, you can indulge your senses and enhance your natural beauty, confident in the superior quality of every application.",
+        "Elevate beauty formulations with Kamlesh Minerals' exquisite range of cosmetic ingredients. Our carefully sourced and processed minerals and additives redefine luxury and efficacy in cosmetics. Enhancing the texture and spreadability of creams and lotions or imparting vibrant pigments in makeup formulations, our products reflect a commitment to quality, purity, and innovation. Enhance your natural beauty with Kamlesh Minerals.",
       image: "./src/img/industry/3.png",
     },
   },
@@ -47,7 +47,7 @@ const industries = [
       heading: "Ceramic",
       subHeading: "About Ceramic Industry",
       content:
-        "Craft timeless elegance with Kamlesh Minerals  ceramic materials. Renowned for their exceptional strength, durability, and aesthetic appeal, our minerals and additives are the cornerstone of premium ceramic products worldwide. Whether it's creating durable tiles for high-traffic areas or intricate porcelain artistry, our solutions empower ceramic manufacturers to realize their creative visions with confidence. With Kamlesh Minerals, you can transform spaces, enrich experiences, and leave a lasting impression through the artistry of ceramics.",
+        "Elevate beauty formulations with Kamlesh Minerals' exquisite range of cosmetic ingredients. Our carefully sourced and processed minerals and additives redefine luxury and efficacy in cosmetics. Enhancing the texture and spreadability of creams and lotions or imparting vibrant pigments in makeup formulations, our products reflect a commitment to quality, purity, and innovation. Enhance your natural beauty with Kamlesh Minerals.",
       image: "./src/img/industry/4.png",
     },
   },
@@ -60,7 +60,7 @@ const industries = [
       heading: "Building Additives/Fillers",
       subHeading: "About Building Additives/Fillers Industry",
       content:
-        "Build with strength and sustainability using Kamlesh Minerals' building additives and fillers. Our meticulously engineered materials enhance the performance and longevity of construction materials, from concrete to plaster. By improving strength, durability, and workability, our additives enable builders to construct resilient structures that withstand the test of time and environmental challenges. With Kamlesh Minerals, you can build with confidence, knowing that every structure is fortified for enduring excellence.",
+        "Build with strength and sustainability using Kamlesh Minerals' meticulously engineered building additives and fillers. Our materials enhance the performance and longevity of construction materials, from concrete to plaster. By improving strength, durability, and workability, our additives enable builders to construct resilient structures that withstand the test of time and environmental challenges. Build with confidence and excellence using Kamlesh Minerals.",
       image: "./src/img/industry/5.png",
     },
   },
@@ -73,7 +73,7 @@ const industries = [
       heading: "Detergents & Soaps",
       subHeading: "About Detergents & Soaps Industry",
       content:
-        "Embrace cleanliness and efficiency with Kamlesh Minerals' detergent and soap additives. Our premium ingredients are meticulously formulated to enhance the cleaning power, foam stability, and sensory experience of detergents and soaps. Whether it's formulating gentle cleansers for sensitive skin or industrial-strength detergents for tough stains, our products deliver unparalleled performance and efficacy. With Kamlesh Minerals, you can trust in the power of purity, ensuring pristine cleanliness in every wash.",
+        "Experience superior cleanliness and efficiency with Kamlesh Minerals' premium ingredients formulated to enhance the cleaning power, foam stability, and sensory experience of detergents and soaps. Crafting gentle cleansers for sensitive skin or industrial-strength detergents for tough stains, our products deliver unparalleled performance and efficacy. Trust in the purity and power of Kamlesh Minerals for pristine cleanliness in every wash.",
       image: "./src/img/industry/6.png",
     },
   },
@@ -86,7 +86,7 @@ const industries = [
       heading: "Masterbatch Filler",
       subHeading: "About Masterbatch Filler Industry",
       content:
-        "Master the art of color dispersion with Kamlesh Minerals' masterbatch fillers. Our precisely engineered additives enable uniform dispersion and vibrant coloration in masterbatch formulations, unlocking limitless possibilities for plastic manufacturers. By ensuring consistent quality, stability, and compatibility, our fillers empower manufacturers to achieve precise color matching and optimal performance in their plastic products. With Kamlesh Minerals, you can infuse your creations with vibrant hues and lasting brilliance, setting new standards of excellence in the industry.",
+        "Our precisely engineered additives enable uniform dispersion and vibrant coloration in masterbatch formulations, unlocking limitless possibilities for plastic manufacturers. Ensuring consistent quality, stability, and compatibility, our fillers empower manufacturers to achieve precise color matching and optimal performance in their plastic products. Infuse your creations with vibrant hues and lasting brilliance with Kamlesh Minerals.",
       image: "./src/img/industry/7.png",
     },
   },
@@ -99,7 +99,7 @@ const industries = [
       heading: "Paper & Boards",
       subHeading: "About Paper & Boards Industry",
       content:
-        "Transform ideas into reality with Kamlesh Minerals' paper and board additives. Our specialty minerals enhance the strength, smoothness, and printability of paper products, elevating the quality of printed materials across industries. Whether it's producing premium packaging solutions or fine stationery, our additives ensure exceptional results, from vibrant colors to crisp text and graphics. With Kamlesh Minerals, you can turn every project into a masterpiece, inspiring creativity and leaving a lasting impression on your audience.",
+        "Transform ideas into reality with Kamlesh Minerals' specialty minerals that enhance the strength, smoothness, and printability of paper products, elevating the quality of printed materials across industries. Producing premium packaging solutions or fine stationery, our additives ensure exceptional results, from vibrant colors to crisp text and graphics. Turn every project into a masterpiece with Kamlesh Minerals.",
       image: "./src/img/industry/8.png",
     },
   },
@@ -112,7 +112,7 @@ const industries = [
       heading: "Paints & Coatings",
       subHeading: "About Paints & Coatings Industry",
       content:
-        "Coat surfaces with confidence using Kamlesh Minerals paints and coatings additives. Our advanced materials are meticulously formulated to enhance adhesion, durability, and color stability in paint formulations. Whether it's architectural coatings that withstand the elements or industrial paints for demanding applications, our additives deliver superior performance and longevity. With Kamlesh Minerals, you can protect and beautify surfaces, ensuring lasting durability and aesthetic appeal in every application.",
+        "Our advanced materials are formulated to enhance adhesion, durability, and color stability in paint formulations. From architectural coatings that withstand the elements to industrial paints for demanding applications, our additives deliver superior performance and longevity. Trust Kamlesh Minerals to protect and beautify surfaces, ensuring lasting durability and aesthetic appeal in every application.",
       image: "./src/img/industry/9.png",
     },
   },
@@ -125,7 +125,7 @@ const industries = [
       heading: "Plastic & Polymer",
       subHeading: "About Plastic & Polymer Industry",
       content:
-        "Plastics and polymers have become indispensable in modern manufacturing, permeating various sectors from packaging to automotive engineering. Their versatility, durability, and mold ability make them the cornerstone of countless products we use daily. At Kamlesh Minerals, we understand the pivotal role these materials play in driving innovation and efficiency across industries. Our comprehensive range of plastic and polymer additives is meticulously formulated to enhance performance, durability, and sustainability. Whether it's improving mechanical properties, enhancing UV resistance, or optimizing processing characteristics, our products empower manufacturers to meet the evolving demands of today's markets.",
+        "Plastics and polymers are indispensable in modern manufacturing, permeating various sectors from packaging to automotive engineering. At Kamlesh Minerals, we understand the pivotal role these materials play in driving innovation and efficiency across industries. Our comprehensive range of plastic and polymer additives is meticulously formulated to enhance performance, durability, and sustainability. Improve mechanical properties, enhance UV resistance, and optimize processing characteristics with Kamlesh Minerals.",
       image: "./src/img/industry/10.png",
     },
   },
@@ -138,7 +138,7 @@ const industries = [
       heading: "Rubber",
       subHeading: "About Rubber Industry",
       content:
-        "From automotive components to industrial machinery, rubber products form the backbone of countless applications. Their resilience, flexibility, and weather resistance make them essential in environments where durability is paramount. At Kamlesh Minerals, we specialize in providing premium rubber additives that elevate performance and longevity. Whether it's enhancing abrasion resistance, improving adhesion, or ensuring thermal stability, our additives are engineered to meet the most demanding industry standards. Partner with us to unlock the full potential of rubber in your applications and experience unparalleled reliability and performance.",
+        "From automotive components to industrial machinery, rubber products are essential for resilience, flexibility, and weather resistance. At Kamlesh Minerals, we specialize in providing premium rubber additives that elevate performance and longevity. Enhance abrasion resistance, improve adhesion, and ensure thermal stability with our expertly engineered additives. Unlock the full potential of rubber with Kamlesh Minerals.",
       image: "./src/img/industry/11.png",
     },
   },
@@ -151,7 +151,7 @@ const industries = [
       heading: "Textile",
       subHeading: "About Textile Industry",
       content:
-        "In the fast-paced world of textiles, staying ahead requires a delicate balance of innovation and functionality. From high-performance sportswear to technical textiles used in aerospace, the demands on materials are ever-evolving. Kamlesh Minerals offers a range of specialty additives designed to augment textile properties, from enhancing moisture management to improving dye absorption and color fastness. Our solutions empower textile manufacturers to push boundaries, delivering fabrics that not only look stunning but also perform flawlessly in any environment.",
+        "From automotive components to industrial machinery, rubber products are essential for resilience, flexibility, and weather resistance. At Kamlesh Minerals, we specialize in providing premium rubber additives that elevate performance and longevity. Enhance abrasion resistance, improve adhesion, and ensure thermal stability with our expertly engineered additives. Unlock the full potential of rubber with Kamlesh Minerals.",
       image: "./src/img/industry/12.png",
     },
   },
@@ -164,7 +164,7 @@ const industries = [
       heading: "Semiconductors/Electronics",
       subHeading: "About Semiconductors/Electronics Industry",
       content:
-        "Semiconductors and electronics are the backbone of modern technology, powering everything from smartphones to industrial automation systems. As technology advances, the demand for smaller, faster, and more efficient components continues to rise. Kamlesh Minerals is at the forefront of semiconductor manufacturing, providing critical materials and additives that enable the production of cutting-edge electronic devices. From dielectric coatings to semiconductor dopants, our products play a vital role in enhancing performance, reliability, and yield, ensuring that your electronics meet the highest standards of quality and efficiency.",
+        "Semiconductors and electronics are the backbone of modern technology. As technology advances, the demand for smaller, faster, and more efficient components rises. Kamlesh Minerals provides critical materials and additives for semiconductor manufacturing, enabling the production of cutting-edge electronic devices. Enhance performance, reliability, and yield with Kamlesh Minerals' dielectric coatings and semiconductor dopants.",
       image: "./src/img/industry/13.png",
     },
   },
@@ -190,7 +190,7 @@ const industries = [
       heading: "Cables & Wire",
       subHeading: "About Cables & Wire Industry",
       content:
-        "Cables and wires form the circulatory system of our modern infrastructure, transmitting power and data across vast distances with precision and reliability. In industries ranging from telecommunications to renewable energy, the performance of these critical components is paramount. At Kamlesh Minerals, we specialize in developing additives that enhance the mechanical and electrical properties of cables and wires, from improving flexibility and flame retardancy to enhancing thermal stability and moisture resistance. With our comprehensive range of solutions, you can trust that your cables and wires will deliver unmatched performance and longevity in any application.",
+        "Cables and wires form the circulatory system of modern infrastructure, transmitting power and data with precision and reliability. Kamlesh Minerals specializes in developing additives that enhance the mechanical and electrical properties of cables and wires, from improving flexibility and flame retardancy to enhancing thermal stability and moisture resistance. Trust Kamlesh Minerals for unmatched performance and longevity in your cables and wires.",
       image: "./src/img/industry/15.png",
     },
   },
@@ -203,7 +203,7 @@ const industries = [
       heading: "Polymer Masterbatch Additives",
       subHeading: "About Polymer Masterbatch Additives Industry",
       content:
-        "Moisture is a formidable adversary to the quality and effectiveness of polymer masterbatch additives. In the application industry, where precision and reliability are paramount, our specialized desiccant solutions stand as your frontline defense. Crafted with the unique challenges of the Polymer Masterbatch Additives industry in mind, our extensive array of desiccants ensures unparalleled moisture control. Whether you opt for our silica gel sachets or clay desiccant packs, each product is meticulously engineered to uphold optimal moisture levels, safeguarding your additives against degradation,clumping, and performance setbacks. Trust in our desiccant solutions to uphold the integrity and performance of your valuable additives, empowering your endeavors in the application industry.",
+        "Moisture is a formidable adversary to the quality and effectiveness of polymer masterbatch additives. Kamlesh Minerals offers specialized desiccant solutions to ensure unparalleled moisture control. Our silica gel sachets and clay desiccant packs are meticulously engineered to uphold optimal moisture levels, safeguarding your additives against degradation, clumping, and performance setbacks. Trust in Kamlesh Minerals' desiccant solutions for the integrity and performance of your valuable additives.",
       image: "./src/img/industry/16.png",
     },
   },
@@ -231,7 +231,7 @@ const products = [
     details: {
       heading: "Talc",
       content:
-        "Talc, known for its softness and smooth texture, is a naturally occurring mineral composed of mainly hydrated magnesium silicate. It is widely utilized in various industries due to its excellent properties, including lubricity, chemical inertness, and high thermal stability. Talc is used in many industries, including paper making, plastic, paint and coatings, rubber, food, electric cable, pharmaceuticals, cosmetics, and ceramics. A coarse grayish-green high-talc rock is soapstone or steatite, used for stoves, sinks, electrical switchboards, etc. It is often used for the surfaces of laboratory table tops and electrical switchboards because of its resistance to heat, electricity, and acids.",
+        "Talc, known for its softness and smooth texture, is a naturally occurring mineral primarily composed of hydrated magnesium silicate. Due to its versatility, talc is highly significant to various industries, owing to its lubricity, chemical inertness, and high thermal stability. Talc is used in many industries, including paper making, plastics, paints and coatings, rubber, food, electric cables, pharmaceuticals, cosmetics, and ceramics. A coarse, grayish-green high-talc rock known as soapstone or steatite is used for stoves, sinks, and electrical switchboards. Its resistance to heat, electricity, and acids makes it suitable for the surfaces of laboratory tabletops and electrical switchboards.In it’s finely ground form, talc is used as a cosmetic, lubricant, and filler in paper manufacture. It is also used to coat the insides of inner tubes and rubber gloves during manufacture to prevent the surfaces from sticking together. At Kamlesh Minerals, we source talc from the finest mines, ensuring purity and consistency in every batch for the desired application. We pride ourselves on delivering the highest-quality talc products on the market, with a wide range of talc products to suit your application needs.",
       image: "./src/img/product/1.png",
       structureImage: "./src/img/Structure/1.png",
       structreContent:

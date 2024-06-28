@@ -341,11 +341,15 @@ p {
 }
 
 .footerheadContent .contactBtn {
-  margin-left: 0 !important;
+  margin-left: auto !important;
   width: 30%;
   text-align: center;
   display: flex;
   justify-content: center;
+}
+
+.footerheadContent{
+  text-align: right;
 }
 
 .footerheadContent p {
@@ -377,7 +381,7 @@ p {
 }
 
 .sIcon {
-  padding-right: 1em;
+  padding-right: 0.5em;
 }
 
 .sIcon svg rect {
@@ -1056,6 +1060,11 @@ p {
   border-radius: 10px;
 }
 
+.appDetailImg{
+  position: sticky;
+  top: 10em;
+}
+
 .productDetails h2 {
   color: #202020 !important;
 }
@@ -1276,4 +1285,31 @@ p {
   height: 22em;
   object-fit: cover;
   border-radius: 20px;
+}
+
+
+.productform{
+  background-color: #F1F6FA;
+  border-radius: 20px;
+  padding: 2em;
+}
+
+.productform .form-control{
+  background-color: #fff;
+}
+
+.productform .heading{
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.formBtn .contactBtn{
+  margin-left: 0 !important; 
+}
+
+.formBtn{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
