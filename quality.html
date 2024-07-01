@@ -18,6 +18,15 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
   </head>
 
   <body>
@@ -220,7 +229,45 @@
       <!-- slider section  -->
       <section>
         <div class="slideSection spacing pt-0">
-          <div class="qualityGallery"></div>
+          <div class="container">
+            <div class="productsliders">
+              <div>
+                <div class="imageslides">
+                    <img src="./src/img/qualitys1.png" alt="">
+                </div>
+              </div>
+              <div>
+                <div class="imageslides">
+                    <img src="./src/img/qualitys2.png" alt="">
+                </div>
+              </div>
+              <div>
+                <div class="imageslides">
+                    <img src="./src/img/qualitys3.png" alt="">
+                </div>
+              </div>
+              <div>
+                <div class="imageslides">
+                    <img src="./src/img/qualitys4.png" alt="">
+                </div>
+              </div>
+              <div>
+                <div class="imageslides">
+                    <img src="./src/img/qualitys5.png" alt="">
+                </div>
+              </div>
+              <div>
+                <div class="imageslides">
+                    <img src="./src/img/qualitys6.png" alt="">
+                </div>
+              </div>
+              <div>
+                <div class="imageslides">
+                    <img src="./src/img/qualitys7.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- slider section end -->
@@ -234,7 +281,7 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="heading">
-                      <span>Let’s start together.</span>
+                      <span>Let’s build together.</span>
                       <h2>
                         Reach out to<br />
                         Kamlesh Minerals!
@@ -244,9 +291,9 @@
                   <div class="col-md-6 m-auto">
                     <div class="footerheadContent">
                       <p>
-                        Initiate your journey towards <br />precision with us
+                        Initiate your journey towards <br />precision with us !
                       </p>
-                      <a href="#" class="btn btn-group contactBtn"
+                      <a href="./contact.html" class="btn btn-group contactBtn"
                         >CONTACT US</a
                       >
                     </div>
@@ -461,7 +508,56 @@
   </body>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script
+    type="text/javascript"
+    src="//code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
   <script>
     AOS.init();
+  </script>
+   <script>
+    $(".productsliders").slick({
+      autoplay: true,
+      dots: false,
+      arrows: true,
+      infinite: true,
+      speed: 200,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ],
+    });
   </script>
 </html>

@@ -132,9 +132,10 @@
       <section>
         <div class="bannerSection">
           <div class="banner">
-            <video autoplay loop muted>
+            <!-- <video autoplay loop muted>
               <source src="./src/img/bannerVideo.mp4" type="video/mp4" />
-            </video>
+            </video> -->
+            <img class="mainBanner" src="./src/img/mainBanner.png" alt="">
             <img class="bgoverlay" src="./src/img/bannerbg.png" alt="" />
           </div>
         </div>
@@ -190,6 +191,35 @@
         </div>
       </section>
       <!-- about us section end -->
+
+      <!-- product section  -->
+      <section>
+        <div class="productSection spacing">
+          <div class="container">
+            <div class="productHeads">
+              <div class="heading">
+                <span>Products</span>
+                <h2>Our Products</h2>
+              </div>
+            </div>
+            <div class="productsliders appCard-container">
+              <div class="app-card-clone">
+                <a class="url" href="./product-application.html">
+                  <div class="similarPCard">
+                    <img
+                      class="product-image"
+                      src="./src/img/product/1.png"
+                      alt=""
+                    />
+                    <h5 class="title">Talc</h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- product section end -->
 
       <!-- work with us  -->
       <section>
@@ -873,7 +903,11 @@
                   <img src="./src/img/company4.png" alt="" />
                   <div class="companyContent">
                     <h4>Kamlesh Bioverse</h4>
-                    <p>Kamlesh Polychem is launching soon !</p>
+                    <p>
+                      Kamlesh BioVerse aims to provide sustainable
+                      developments for replacing the use of fossil fuels with
+                      more renewable sources of energy.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -889,35 +923,6 @@
         </div>
       </section>
       <!-- companies section end -->
-
-      <!-- product section  -->
-      <section>
-        <div class="productSection spacing">
-          <div class="container">
-            <div class="productHeads">
-              <div class="heading">
-                <span>Products</span>
-                <h2>Our Products</h2>
-              </div>
-            </div>
-            <div class="productsliders appCard-container">
-              <div class="app-card-clone">
-                <a class="url" href="./product-application.html">
-                  <div class="similarPCard">
-                    <img
-                      class="product-image"
-                      src="./src/img/product/1.png"
-                      alt=""
-                    />
-                    <h5 class="title">Talc</h5>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- product section end -->
 
       <!-- how we work section  -->
       <section>
@@ -1011,7 +1016,7 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="heading">
-                      <span>Let’s start together.</span>
+                      <span>Let’s build together.</span>
                       <h2>
                         Reach out to<br />
                         Kamlesh Minerals!
@@ -1021,9 +1026,9 @@
                   <div class="col-md-6 m-auto">
                     <div class="footerheadContent">
                       <p>
-                        Initiate your journey towards <br />precision with us
+                        Initiate your journey towards <br />precision with us !
                       </p>
-                      <a href="#" class="btn btn-group contactBtn"
+                      <a href="./contact.html" class="btn btn-group contactBtn"
                         >CONTACT US</a
                       >
                     </div>
@@ -1055,8 +1060,16 @@
                       <h4>Group of Companies</h4>
                       <ul>
                         <li><a href="./kmicro.html">K Micro Minerals</a></li>
-                        <li><a href="./companies.html#kamesh-eng">Kamlesh Engineers</a></li>
-                        <li><a href="./companies.html#kamlesh-poly">Kamlesh Polychem</a></li>
+                        <li>
+                          <a href="./companies.html#kamesh-eng"
+                            >Kamlesh Engineers</a
+                          >
+                        </li>
+                        <li>
+                          <a href="./companies.html#kamlesh-poly"
+                            >Kamlesh Polychem</a
+                          >
+                        </li>
                         <li>
                           <a
                             target="_blank"
@@ -1282,10 +1295,7 @@
       speed: 200,
       slidesToShow: 3,
       slidesToScroll: 1,
-      prevArrow:
-        "<img class='slick-prev slick-arrow' src='./src/img/leftarrow.png' />",
-      nextArrow:
-        "<img class='slick-next slick-arrow' src='./src/img/rightarrow.png' />",
+      
       responsive: [
         {
           breakpoint: 1024,
@@ -1320,7 +1330,7 @@
     $(".slider").slick({
       autoplay: true,
       dots: false,
-      arrows: false,
+      arrows: true,
       infinite: true,
       speed: 200,
       slidesToShow: 5,

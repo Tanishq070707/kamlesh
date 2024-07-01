@@ -1313,3 +1313,45 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+.polybtn .contactBtn{
+  margin: 0;
+  width: 20%;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center; 
+}
+
+.polybtn{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.appCard-container a:hover{
+  color: #000;
+}
+
+.appCard-container a{
+  text-decoration: none;
+  color: #000;
+}
+
+.productsliders .slick-next:before,.productsliders .slick-prev:before {
+  font-family: slick;
+  font-size: 40px !important;
+  line-height: 1;
+  opacity: .75;
+  color: #000000 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.imageslides{
+  margin: 0em 0.5em;
+}
+
+.mainBanner{
+  height: 100vh;
+  object-fit: cover;
+}
