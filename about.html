@@ -329,13 +329,13 @@
                               aria-hidden="true"
                             ></i>
                             &nbsp;<i class="fa fa-users" aria-hidden="true"></i
-                            ><span>2005</span></a
+                            ><span>1971</span></a
                           >
                         </li>
                         <li>
                           <a href="#0" data-date="01/03/2015"
                             ><i class="fa fa-comments" aria-hidden="true"></i
-                            ><span>2010</span></a
+                            ><span>2005</span></a
                           >
                         </li>
                         <li>
@@ -365,6 +365,15 @@
                             ><span>2024</span></a
                           >
                         </li>
+                        <!-- <li>
+                          <a href="#0" data-date="01/02/2011"
+                            ><i
+                              class="fa fa-pencil-square-o"
+                              aria-hidden="true"
+                            ></i
+                            ><span>2025</span></a
+                          >
+                        </li> -->
                       </ol>
 
                       <span class="filling-line" aria-hidden="true"></span>
@@ -749,7 +758,7 @@
   <script>
     jQuery(document).ready(function ($) {
       var timelines = $(".cd-horizontal-timeline"),
-        eventsMinDistance = 150;
+        eventsMinDistance = 130;
 
       timelines.length > 0 && initTimeline(timelines);
 
@@ -777,10 +786,7 @@
           );
           timelineComponents["eventsContent"] =
             timeline.children(".events-content");
-
-          //assign a left postion to the single events along the timeline
           setDatePosition(timelineComponents, eventsMinDistance);
-          //assign a width to the timeline
           var timelineTotWidth = setTimelineWidth(
             timelineComponents,
             eventsMinDistance
