@@ -1,0 +1,116 @@
+@media (max-width: 768px) {
+  p {
+    text-align: justify;
+  }
+  .howvector:after {
+    display: none;
+  }
+  .slick-next:before {
+    display: none;
+  }
+  .slick-next {
+    display: none !important;
+  }
+
+  .slick-prev {
+    display: none !important;
+  }
+  .heading h2 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-family: bolds !important;
+    font-size: 34px;
+  }
+  .heading span {
+    font-size: 14px;
+  }
+  .about {
+    padding: 0 !important;
+  }
+  .imageContent {
+    margin-top: 2em;
+  }
+  .footerheadContent .contactBtn {
+    margin: auto !important;
+    width: 40% !important;
+  }
+  .addressDetail img {
+    width: 2em !important;
+  }
+  .addressDetail p {
+    color: #fff;
+    font-size: 14px;
+    font-family: semibold !important;
+  }
+  .socialLink {
+    margin-bottom: 2em;
+  }
+  .navbar-brand img {
+    width: 50% !important;
+  }
+  .companyCard img {
+    width: 40% !important;
+  }
+  .submenu {
+    z-index: 999;
+  }
+  .teamCard {
+    text-align: center;
+    padding-bottom: 2em;
+  }
+  .teamCard img {
+    width: 60%;
+    height: 16em;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .timeline {
+    display: none;
+  }
+  .companyTab .nav-pills .nav-link {
+    font-size: 12px !important;
+  }
+  .companyTab .nav-item {
+    margin: 0 0.5em;
+  }
+  .companyImg {
+    padding: 1em 0;
+  }
+  .product-detail-img {
+    margin-bottom: 1em;
+  }
+  .ConForm {
+    padding: 0 !important;
+  }
+  .applicationCard img {
+    height: 5em;
+    position: absolute;
+    right: 0;
+    width: 8em;
+    top: 50%;
+    transform: translate(0%, -50%) !important;
+    opacity: 0.2;
+    transition: all 1s;
+  }
+  .app-detail-img {
+    margin-bottom: 2em;
+  }
+  .productHead h2::before {
+    display: none;
+  }
+  .productHead h2:after {
+    display: none;
+  }
+  .qualityContent{
+    margin-top: 1em;
+  }
+  .certificateImg img{
+    padding: 0.5em 0;
+  }
+  .formDetail{
+    padding: 0 !important;
+  }
+  .borderLeft{
+    border: none !important;
+  }
+}
