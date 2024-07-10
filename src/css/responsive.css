@@ -113,4 +113,11 @@
   .borderLeft{
     border: none !important;
   }
+  .banner{
+    display: none !important;
+  }
+  .mobBanner{
+    display: block !important;
+  }
+  
 }

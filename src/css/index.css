@@ -27,6 +27,10 @@ body {
   font-family: regular !important;
 }
 
+.btn-check:focus+.btn, .btn:focus{
+  box-shadow: none !important;
+}
+
 img {
   width: 100%;
 }
@@ -456,7 +460,7 @@ p {
 }
 
 .addressDetail img {
-  width: 20%;
+  width: 15%;
   height: 100%;
   padding-right: 0.5em;
 }
@@ -1168,9 +1172,15 @@ p {
 }
 
 .formDetail p {
-  padding: 0em 0 1em;
+  /* padding: 0em 0 1em; */
 }
-
+.mailcontact{
+  margin-bottom: 0 !important;
+}
+.mailcontact a{
+  color:#000;
+  text-decoration: none;
+}
 .borderLeft {
   border-left: 1px solid #cccccc;
 }
@@ -1278,7 +1288,7 @@ p {
 }
 
 .locationCard{
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 .workSection .slick-slide img{
@@ -1354,4 +1364,58 @@ p {
 .mainBanner{
   height: 100vh;
   object-fit: cover;
+}
+
+.years img{
+  position: absolute;
+  right: 9%;
+  bottom: 0;
+  width: 20%;
+}
+
+.bannerHead{
+  position: absolute;
+  left: 9%;
+  top: 40%;
+}
+
+.bannerHead{
+  color: #fff;
+} 
+
+.bannerHead span{
+  font-size: 20px;
+  font-family: semibold !important;
+  position: relative;
+}
+
+.bannerHead h1{
+  font-size: 75px;
+  font-family: bolds !important;
+  padding-top: 0.5em;
+}
+
+.bannerHead span:after{
+  content: "";
+  background-color: #0590da;
+  position: absolute;
+  left: 0;
+  bottom: -24%;
+  width: 166%;
+  height: 4px;
+  border-radius: 100px;
+}
+
+.mobBanner{
+  display: none;
+}
+
+.banner{
+  display: block;
+}
+
+.teamCard .innerImg{
+  height: 12em;
+  object-fit: cover;
+  border-radius: 20px;
 }

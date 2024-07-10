@@ -1,107 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamlesh Minerals</title>
+    <link rel="icon" type="images/x-icon" href="./src/img/fav.svg" />
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <link rel="stylesheet" href="./src/css/slider.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kamlesh Minerals</title>
-  <link rel="stylesheet" href="./src/css/index.css" />
-  <link rel="stylesheet" href="./src/css/slider.css" />
-  <link rel="stylesheet" href="./src/css/responsive.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <div class="wrapper">
-    <!-- header  -->
-    <section>
-      <div class="header">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container">
-            <a class="navbar-brand" href="./index.html"><img src="./src/img/logo.png" /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./">HOME</a>
-                </li>
-                <li class="nav-item submenus">
-                  <a class="nav-link">ABOUT US
-                    <svg width="16" height="8" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M2 0L8 6L14 0L16 2L8 10L0 2L2 0Z"
-                        fill="#202020" />
-                    </svg>
-                  </a>
-                  <div class="submenu">
-                    <ul>
-                      <a href="./about.html">
-                        <li>Who We Are</li>
-                      </a>
-                      <a href="./companies.html">
-                        <li>Group of Companies</li>
-                      </a>
-                      <!-- <a href="./infrastructure.html"
+  <body>
+    <div class="wrapper">
+      <!-- header  -->
+      <section>
+        <div class="header">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="./index.html"
+                ><img src="./src/img/logo.png"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./"
+                      >HOME</a
+                    >
+                  </li>
+                  <li class="nav-item submenus">
+                    <a class="nav-link"
+                      >ABOUT US
+                      <svg
+                        width="16"
+                        height="8"
+                        viewBox="0 0 16 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M2 0L8 6L14 0L16 2L8 10L0 2L2 0Z"
+                          fill="#202020"
+                        />
+                      </svg>
+                    </a>
+                    <div class="submenu">
+                      <ul>
+                        <a href="./about.html">
+                          <li>Who We Are</li>
+                        </a>
+                        <a href="./companies.html">
+                          <li>Group of Companies</li>
+                        </a>
+                        <!-- <a href="./infrastructure.html"
                           ><li>Infrastructure</li></a
                         > -->
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item submenus">
-                  <a class="nav-link" href="#">PRODUCTS & APPLICATIONS
-                    <svg width="16" height="8" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M2 0L8 6L14 0L16 2L8 10L0 2L2 0Z"
-                        fill="#202020" />
-                    </svg>
-                  </a>
-                  <div class="submenu">
-                    <ul>
-                      <a href="./product.html">
-                        <li>Products</li>
-                      </a>
-                      <a href="./application.html">
-                        <li>Industries</li>
-                      </a>
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./quality.html">QUALITY</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./kmicro.html">K MICRO</a>
-                </li>
-                <a href="./contact.html" class="btn btn-group contactBtn">CONTACT US</a>
-              </ul>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item submenus">
+                    <a class="nav-link" href="#"
+                      >PRODUCTS & APPLICATIONS
+                      <svg
+                        width="16"
+                        height="8"
+                        viewBox="0 0 16 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M2 0L8 6L14 0L16 2L8 10L0 2L2 0Z"
+                          fill="#202020"
+                        />
+                      </svg>
+                    </a>
+                    <div class="submenu">
+                      <ul>
+                        <a href="./product.html">
+                          <li>Products</li>
+                        </a>
+                        <a href="./application.html">
+                          <li>Industries</li>
+                        </a>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./quality.html">QUALITY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./kmicro.html">K MICRO</a>
+                  </li>
+                  <a href="./contact.html" class="btn btn-group contactBtn"
+                    >CONTACT US</a
+                  >
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
-      </div>
-    </section>
-    <!-- header end -->
+          </nav>
+        </div>
+      </section>
+      <!-- header end -->
 
-    <!-- address section  -->
-    <section>
-      <div class="addressSection spacing mainmargin">
-        <div class="container">
-          <div class="head">
-            <h1 class="product-detail-head">Contact Us</h1>
-          </div>
-          <div class="dividers"></div>
-          <div class="mainAddress">
-            <!-- <div class="heading mb-5">
+      <!-- address section  -->
+      <section>
+        <div class="addressSection spacing mainmargin">
+          <div class="container">
+            <div class="head">
+              <h1 class="product-detail-head">Contact Us</h1>
+            </div>
+            <div class="dividers"></div>
+            <div class="mainAddress">
+              <!-- <div class="heading mb-5">
                 <span>LOCATION</span>
                 <h2>Our Branches</h2>
               </div> -->
-            <!-- <div class="locations">
+              <!-- <div class="locations">
                 <div class="row">
                   <div
                     class="col-md-4"
@@ -153,322 +193,313 @@
                   </div>
                 </div>
               </div> -->
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- address section end -->
+      </section>
+      <!-- address section end -->
 
-    <!-- form section  -->
-    <section>
-      <div class="contactForm">
-        <div class="container">
-          <div class="contactCard">
-            <div class="row">
-              <div class="col-md-6 m-auto" data-aos="fade-right" data-aos-duration="2000">
-                <div class="formDetail">
-                  <div class="heading">
-                    <span>eNQUIRY fORM</span>
-                    <h2>Let’s talk with <br />Expertise</h2>
-                  </div>
-                  <p>
-                    Ultimately, the success of business is based on providing
-                    our customers with unparalleled product, service &
-                    support.
-                  </p>
-                  <div class="socailIcon">
-                    <a href="">
-                      <div class="sIcon">
-                        <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect x="0.75" y="0.800781" width="33.5" height="33.5" rx="16.75" stroke="#0590DA"
-                            stroke-width="1.5" />
-                          <g clip-path="url(#clip0_245_580)">
-                            <path
-                              d="M24.1076 13.4643C23.7335 14.0112 23.2811 14.4771 22.7506 14.8622C22.7562 14.9403 22.759 15.0575 22.759 15.2137C22.759 15.9392 22.6529 16.6632 22.4407 17.3859C22.2285 18.1085 21.906 18.8019 21.4732 19.466C21.0404 20.13 20.5253 20.7174 19.9277 21.228C19.3302 21.7386 18.6098 22.1459 17.7666 22.4501C16.9234 22.7542 16.0215 22.9062 15.061 22.9062C13.5476 22.9062 12.1627 22.5017 10.9062 21.6925C11.1017 21.7148 11.3195 21.726 11.5596 21.726C12.8161 21.726 13.9358 21.341 14.9186 20.5709C14.3322 20.5597 13.8073 20.3797 13.3438 20.031C12.8803 19.6822 12.562 19.2372 12.3889 18.6959C12.5732 18.7238 12.7435 18.7377 12.8999 18.7377C13.14 18.7377 13.3773 18.707 13.6119 18.6456C12.9864 18.5173 12.4685 18.2062 12.058 17.7123C11.6476 17.2185 11.4423 16.6451 11.4423 15.9922V15.9587C11.8221 16.1708 12.2297 16.2852 12.6653 16.3019C12.2967 16.0564 12.0036 15.7355 11.7858 15.3393C11.568 14.9431 11.4591 14.5134 11.4591 14.0502C11.4591 13.5592 11.582 13.1044 11.8277 12.6858C12.5034 13.5173 13.3257 14.1828 14.2945 14.6822C15.2634 15.1816 16.3007 15.4593 17.4064 15.5151C17.3617 15.303 17.3394 15.0965 17.3394 14.8956C17.3394 14.1479 17.6033 13.5103 18.131 12.983C18.6587 12.4556 19.2967 12.192 20.045 12.192C20.8268 12.192 21.4858 12.4766 22.0219 13.0458C22.6306 12.9286 23.203 12.7109 23.7391 12.3929C23.5324 13.0346 23.1359 13.5313 22.5496 13.8828C23.0689 13.827 23.5883 13.6875 24.1076 13.4643Z"
-                              fill="#0590DA" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_245_580">
-                              <rect width="14.04" height="15" fill="white"
-                                transform="matrix(1 0 0 -1 10.4844 25.0508)" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-
-                        <h5>Twitter</h5>
+      <!-- form section  -->
+      <section>
+        <div class="contactForm">
+          <div class="container">
+            <div class="contactCard">
+              <div class="row">
+                <div
+                  class="col-md-6 m-auto"
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                >
+                  <div class="formDetail">
+                    <div class="heading">
+                      <span>eNQUIRY fORM</span>
+                      <h2>Let’s talk with <br />Expertise</h2>
+                    </div>
+                    <p>
+                      Ultimately, the success of business is based on providing
+                      our customers with unparalleled product, service &
+                      support.
+                    </p>
+                    <div
+                      class="col-md-10"
+                      data-aos="fade-right"
+                      data-aos-duration="2000"
+                    >
+                      <div class="locationCard">
+                        <img src="./src/img/location1.png" alt="" />
+                        <div class="locationContent">
+                          <h5>UDAIPUR</h5>
+                          <p>
+                            25 – E, Industrial Area, Pratap Nagar, Udaipur
+                            313002, Rajasthan, India
+                          </p>
+                          <p class="mailcontact"><b><a href="mailto:support@kamleshminerals.com">support@kamleshminerals.com</a></b></p>
+                        </div>
                       </div>
-                    </a>
-                    <a href="">
-                      <div class="sIcon">
-                        <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <rect x="0.75" y="0.800781" width="33.5" height="33.5" rx="16.75" stroke="#0590DA"
-                            stroke-width="1.5" />
-                          <path
-                            d="M14.2606 15.5856V24.4336H11.3166V15.5856H14.2606ZM14.4526 12.8496C14.4526 13.2869 14.298 13.6496 13.9886 13.9376C13.6793 14.2256 13.2793 14.3696 12.7886 14.3696H12.7726C12.282 14.3696 11.8873 14.2256 11.5886 13.9376C11.29 13.6496 11.1406 13.2869 11.1406 12.8496C11.1406 12.4123 11.2953 12.0496 11.6046 11.7616C11.914 11.4736 12.314 11.3296 12.8046 11.3296C13.2953 11.3296 13.69 11.4736 13.9886 11.7616C14.2873 12.0496 14.442 12.4123 14.4526 12.8496ZM24.8526 19.3616V24.4336H21.9246V19.6976C21.9246 19.0683 21.802 18.5776 21.5566 18.2256C21.3113 17.8736 20.9326 17.6976 20.4206 17.6976C20.0473 17.6976 19.738 17.7989 19.4926 18.0016C19.2473 18.2043 19.0553 18.4603 18.9166 18.7696C18.8526 18.9509 18.8206 19.1909 18.8206 19.4896V24.4336H15.8766C15.8873 22.0549 15.8926 20.1296 15.8926 18.6576V16.0176L15.8766 15.5856H18.8206V16.8656H18.8046C18.922 16.6736 19.0446 16.5083 19.1726 16.3696C19.3006 16.2309 19.466 16.0763 19.6686 15.9056C19.8713 15.7349 20.1326 15.6069 20.4526 15.5216C20.7726 15.4363 21.114 15.3883 21.4766 15.3776C22.49 15.3776 23.306 15.7136 23.9246 16.3856C24.5433 17.0576 24.8526 18.0496 24.8526 19.3616Z"
-                            fill="#0590DA" />
-                        </svg>
-
-                        <h5>LinkedIn</h5>
-                      </div>
-                    </a>
+                    </div>
                   </div>
-                  <div class="col-md-10" data-aos="fade-right" data-aos-duration="2000">
-                    <div class="locationCard">
-                      <img src="./src/img/location1.png" alt="" />
-                      <div class="locationContent">
-                        <h5>UDAIPUR</h5>
+                </div>
+                <div
+                  class="col-md-6 borderLeft m-auto"
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                >
+                  <div class="ConForm">
+                    <h3>Send Us a Message!</h3>
+                    <form
+                      id="contact-us-form"
+                      action="server/index.php"
+                      method="POST"
+                    >
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="mb-4">
+                            <input
+                              name="name"
+                              type="text"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="Your name*"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="mb-4">
+                            <input
+                              name="email"
+                              type="email"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="Email address*"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="mb-4">
+                            <input
+                              name="phone"
+                              type="text"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="Phone number*"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="mb-4">
+                            <input
+                              name="zip"
+                              type="text"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="Zip code*"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="mb-4">
+                            <textarea
+                              name="message"
+                              class="form-control"
+                              id="exampleFormControlTextarea1"
+                              rows="6"
+                              placeholder="Message**"
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="sendBtn">
+                            <button
+                              type="submit"
+                              class="btn btn-group contactBtn"
+                            >
+                              SEND
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <h5
+                        id="succeess-message"
+                        class="mt-4"
+                        style="color: rgb(41, 197, 41)"
+                      ></h5>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- form section end -->
+
+      <!-- map section  -->
+      <section>
+        <div class="mapSection">
+          <div class="maps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.9910191201407!2d73.74662207435513!3d24.589506156048106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e6080aa77b07%3A0x5192b7b1cdaed112!2sKamlesh%20Minerals!5e0!3m2!1sen!2sin!4v1718709804955!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- map section end -->
+
+      <!-- footer section  -->
+      <section>
+        <footer>
+          <div class="footer">
+            <div class="container">
+              <div class="footerHead">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="heading">
+                      <span>Let’s build together.</span>
+                      <h2>
+                        Reach out to<br />
+                        Kamlesh Minerals!
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="col-md-6 m-auto">
+                    <div class="footerheadContent">
+                      <p>
+                        Initiate your journey towards <br />precision with us !
+                      </p>
+                      <a href="./contact.html" class="btn btn-group contactBtn"
+                        >CONTACT US</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="footerDetail">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="quicklinks">
+                      <h4>Quick links</h4>
+                      <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./application.html">Application</a></li>
+                        <li><a href="./product.html">Products</a></li>
+                        <li><a href="./quality.html">Quality Control</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="./kmicro.html">K Micro</a></li>
+                        <li><a href="./companies.html">Other Division</a></li>
+                        <!-- <li><a href="./infrastructure.html">Infrastructure</a></li> -->
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="quicklinkss">
+                      <h4>Group of Companies</h4>
+                      <ul>
+                        <li><a href="./kmicro.html">K Micro Minerals</a></li>
+                        <li>
+                          <a href="./companies.html#kamesh-eng"
+                            >Kamlesh Engineers</a
+                          >
+                        </li>
+                        <li>
+                          <a href="./companies.html#kamlesh-poly"
+                            >Kamlesh Polychem</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            target="_blank"
+                            href="https://www.kamleshbioverse.com/"
+                            >Kamlesh Bioverse</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="address">
+                      <h4>Reach Out to Us</h4>
+                      <div class="addressDetail">
+                        <img src="./src/img/location.png" alt="" />
                         <p>
-                          25 – E, Industrial Area, Pratap Nagar, Udaipur
-                          313002, Rajasthan, India
+                          25 - E, Industrial Area, Pratap Nagar, Udaipur 313002,
+                          Rajasthan, India
+                        </p>
+                      </div>
+                      <div class="addressDetail mail">
+                        <img
+                          style="width: 15% !important"
+                          src="./src/img/mail.png"
+                          alt=""
+                        />
+                        <div>
+                          <p><a href="./contact.html">kjaroli@gmail.com</a></p>
+                          <p><a href="./contact.html">info@kamleshminerals.com</a></p>
+                        </div>
+                      </div>
+                      <div class="addressDetail">
+                        <img src="./src/img/Phone.png" alt="" />
+                        <p>
+                          (+91)-8239335777 
                         </p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-6 borderLeft m-auto" data-aos="fade-left" data-aos-duration="2000">
-                <div class="ConForm">
-                  <h3>Send Us a Message!</h3>
-                  <form id="contact-us-form" action="server/index.php" method="POST">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="mb-4">
-                          <input name="name" type="text" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Your name*" />
-                        </div>
+                  <div class="col-md-3">
+                    <div class="footContent">
+                      <div class="location">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.991020521576!2d73.74458357218877!3d24.589506107683242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e6080aa77b07%3A0x5192b7b1cdaed112!2sKamlesh%20Minerals!5e0!3m2!1sen!2sin!4v1717501179210!5m2!1sen!2sin"
+                          width="100%"
+                          height="240"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                       </div>
-                      <div class="col-md-6">
-                        <div class="mb-4">
-                          <input name="email" type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Email address*" />
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="mb-4">
-                          <input name="phone" type="text" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Phone number*" />
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="mb-4">
-                          <input name="zip" type="text" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Zip code*" />
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="mb-4">
-                          <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="6"
-                            placeholder="Message**"></textarea>
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="sendBtn">
-                          <button type="submit" class="btn btn-group contactBtn">
-                            SEND
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <h5 id="succeess-message" class="mt-4" style="color: rgb(41, 197, 41);"></h5>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- form section end -->
-
-    <!-- map section  -->
-    <section>
-      <div class="mapSection" data-aos="fade-up" data-aos-duration="2000">
-        <div class="maps">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.9910191201407!2d73.74662207435513!3d24.589506156048106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e6080aa77b07%3A0x5192b7b1cdaed112!2sKamlesh%20Minerals!5e0!3m2!1sen!2sin!4v1718709804955!5m2!1sen!2sin"
-            width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </section>
-    <!-- map section end -->
-
-    <!-- footer section  -->
-    <section>
-      <footer>
-        <div class="footer">
-          <div class="container">
-            <div class="footerHead">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="heading">
-                    <span>Let’s build together.</span>
-                    <h2>
-                      Reach out to<br />
-                      Kamlesh Minerals!
-                    </h2>
-                  </div>
-                </div>
-                <div class="col-md-6 m-auto">
-                  <div class="footerheadContent">
-                    <p>
-                      Initiate your journey towards <br />precision with us !
-                    </p>
-                    <a href="./contact.html" class="btn btn-group contactBtn">CONTACT US</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="divider"></div>
-            <div class="footerDetail">
-              <div class="row">
-                <div class="col-md-3">
-                  <div class="quicklinks">
-                    <h4>Quick links</h4>
-                    <ul>
-                      <li><a href="./index.html">Home</a></li>
-                      <li><a href="./about.html">About Us</a></li>
-                      <li><a href="./application.html">Application</a></li>
-                      <li><a href="./product.html">Products</a></li>
-                      <li><a href="./quality.html">Quality Control</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="./kmicro.html">K Micro</a></li>
-                      <li><a href="./companies.html">Other Division</a></li>
-                      <!-- <li><a href="./infrastructure.html">Infrastructure</a></li> -->
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="quicklinkss">
-                    <h4>Group of Companies</h4>
-                    <ul>
-                      <li><a href="./kmicro.html">K Micro Minerals</a></li>
-                      <li>
-                        <a href="./companies.html#kamesh-eng">Kamlesh Engineers</a>
-                      </li>
-                      <li>
-                        <a href="./companies.html#kamlesh-poly">Kamlesh Polychem</a>
-                      </li>
-                      <li>
-                        <a target="_blank" href="https://www.kamleshbioverse.com/">Kamlesh Bioverse</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="address">
-                    <h4>Reach Out to Us</h4>
-                    <div class="addressDetail">
-                      <img src="./src/img/location.png" alt="" />
-                      <p>
-                        25 - E, Industrial Area, Pratap Nagar, Udaipur 313002,
-                        Rajasthan, India
-                      </p>
-                    </div>
-                    <div class="addressDetail mail">
-                      <img style="width: 15% !important" src="./src/img/mail.png" alt="" />
-                      <div>
-                        <p><a href="">kjaroli@gmail.com</a></p>
-                        <p><a href="">info@kamleshminerals.com</a></p>
-                      </div>
-                    </div>
-                    <div class="addressDetail">
-                      <img src="./src/img/Phone.png" alt="" />
-                      <p>
-                        (+91)-8239335777, +91(294)-2492180 +91(294)-2490037
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="footContent">
-                    <div class="location">
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.991020521576!2d73.74458357218877!3d24.589506107683242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e6080aa77b07%3A0x5192b7b1cdaed112!2sKamlesh%20Minerals!5e0!3m2!1sen!2sin!4v1717501179210!5m2!1sen!2sin"
-                        width="100%" height="140" style="border: 0" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="socialLink">
-                      <h4>Social Info</h4>
-                      <div class="socialIcon">
-                        <div class="sIcon">
-                          <a href="">
-                            <svg width="46" height="45" viewBox="0 0 46 45" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <rect x="1.55342" y="0.608108" width="43.7838" height="43.7838" rx="21.8919"
-                                fill="#181818" />
-                              <rect x="1.55342" y="0.608108" width="43.7838" height="43.7838" rx="21.8919"
-                                stroke="white" stroke-width="1.21622" />
-                              <g clip-path="url(#clip0_231_63)">
-                                <mask id="mask0_231_63" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="16"
-                                  y="16" width="14" height="14">
-                                  <path d="M16 16H30V30H16V16Z" fill="white" />
-                                </mask>
-                                <g mask="url(#mask0_231_63)">
-                                  <path
-                                    d="M27.025 16.6562H29.172L24.482 22.0303L30 29.3442H25.68L22.294 24.9093L18.424 29.3442H16.275L21.291 23.5942L16 16.6572H20.43L23.486 20.7102L27.025 16.6562ZM26.27 28.0562H27.46L19.78 17.8772H18.504L26.27 28.0562Z"
-                                    fill="white" />
-                                </g>
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_231_63">
-                                  <rect width="14" height="14" fill="white" transform="translate(16 16)" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                          </a>
-                        </div>
-                        <div class="sIcon">
-                          <a href="">
-                            <svg width="46" height="45" viewBox="0 0 46 45" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <rect x="1.28389" y="0.608108" width="43.7838" height="43.7838" rx="21.8919"
-                                fill="#181818" />
-                              <rect x="1.28389" y="0.608108" width="43.7838" height="43.7838" rx="21.8919"
-                                stroke="white" stroke-width="1.21622" />
-                              <path
-                                d="M18.6305 20.1686V30.9297H15.05V20.1686H18.6305ZM18.864 16.841C18.864 17.3729 18.6759 17.814 18.2997 18.1643C17.9235 18.5146 17.437 18.6897 16.8403 18.6897H16.8208C16.224 18.6897 15.744 18.5146 15.3808 18.1643C15.0176 17.814 14.8359 17.3729 14.8359 16.841C14.8359 16.3091 15.024 15.8681 15.4003 15.5178C15.7765 15.1675 16.263 14.9924 16.8597 14.9924C17.4565 14.9924 17.9365 15.1675 18.2997 15.5178C18.663 15.8681 18.8511 16.3091 18.864 16.841ZM31.5127 24.761V30.9297H27.9516V25.1697C27.9516 24.4043 27.8024 23.8075 27.504 23.3794C27.2057 22.9513 26.7451 22.7373 26.1224 22.7373C25.6684 22.7373 25.2922 22.8605 24.9938 23.107C24.6954 23.3535 24.4619 23.6648 24.2932 24.041C24.2154 24.2616 24.1765 24.5535 24.1765 24.9167V30.9297H20.5959C20.6089 28.0367 20.6154 25.6951 20.6154 23.9048V20.694L20.5959 20.1686H24.1765V21.7254H24.157C24.2997 21.4918 24.4489 21.2908 24.6046 21.1221C24.7603 20.9535 24.9613 20.7654 25.2078 20.5578C25.4543 20.3502 25.7722 20.1946 26.1613 20.0908C26.5505 19.987 26.9657 19.9286 27.4067 19.9156C28.6392 19.9156 29.6316 20.3243 30.384 21.1416C31.1365 21.9589 31.5127 23.1654 31.5127 24.761Z"
-                                fill="white" />
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
+                      
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- <div class="talkSection">
+            <!-- <div class="talkSection">
               <div class="galleryBg"></div>
             </div> -->
-          <div class="container">
-            <div class="copywrite">
-              <div class="row">
-                <div class="col-md-12 m-auto">
-                  <div class="copy">
-                    <p>
-                      Copyright © 2024 Kamlesh Minerals. Designed By
-                      Jaivardhan Singh
-                    </p>
+            <div class="container">
+              <div class="copywrite">
+                <div class="row">
+                  <div class="col-md-12 m-auto">
+                    <div class="copy">
+                      <p>
+                        Copyright © 2024 Kamlesh Minerals. Designed By
+                        Jaivardhan Singh
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </footer>
-    </section>
-    <!-- footer section end -->
-  </div>
-</body>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
+        </footer>
+      </section>
+      <!-- footer section end -->
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
 
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
