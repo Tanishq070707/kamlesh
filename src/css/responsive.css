@@ -60,7 +60,7 @@
   }
   .teamCard img {
     width: 60%;
-    height: 16em;
+    height: 16em !important;
     object-fit: cover;
     border-radius: 20px;
   }
@@ -71,7 +71,7 @@
     font-size: 12px !important;
   }
   .companyTab .nav-item {
-    margin: 0 0.5em;
+    margin: 0.5em 0.5em;
   }
   .companyImg {
     padding: 1em 0;
@@ -101,23 +101,54 @@
   .productHead h2:after {
     display: none;
   }
-  .qualityContent{
+  .qualityContent {
     margin-top: 1em;
   }
-  .certificateImg img{
+  .certificateImg img {
     padding: 0.5em 0;
   }
-  .formDetail{
+  .formDetail {
     padding: 0 !important;
   }
-  .borderLeft{
+  .borderLeft {
     border: none !important;
   }
-  .banner{
+  .banner {
     display: none !important;
   }
-  .mobBanner{
+  .mobBanner {
     display: block !important;
   }
-  
+  .productSection {
+    padding-bottom: 2em !important;
+  }
+  .quicklinkss {
+    margin-top: 2em;
+  }
+  .spacing {
+    padding: 3em 0;
+  }
+  .vision {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .vision img {
+    width: 20%;
+    margin-right: 1em;
+    margin: 2em auto;
+  }
+  .teams .col-md-4{
+    margin-top: 2em;
+  }
+  .polybtn .contactBtn {
+    margin: 0;
+    width: 50% !important;
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center;
+}
 }
