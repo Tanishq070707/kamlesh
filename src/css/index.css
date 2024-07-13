@@ -60,7 +60,7 @@ p {
   border-radius: 10px !important;
   display: flex !important;
   align-items: center;
-  margin-left: 1rem !important;
+  margin-left: 1rem;
   font-family: bolds !important;
 }
 
@@ -345,7 +345,7 @@ p {
 }
 
 .footerheadContent .contactBtn {
-  margin-left: auto !important;
+  margin-left: auto;
   width: 30%;
   text-align: center;
   display: flex;

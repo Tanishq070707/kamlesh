@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         //Server settings
         $mail->isSMTP();
         $mail->Host = 'smtp.sendgrid.net';    // Set the SMTP server to send through
-        $mail->SMTPAuth = true;                   // Enable SMTP authentication
+        $mail->SMTPAuth = true;                   // Enab   le SMTP authentication
         $mail->Username = 'apikey';               // SendGrid API key as the username
         $mail->Password = $_ENV['SENDGRID_API_KEY'];  // SendGrid API key
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption
@@ -37,6 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->setFrom($_ENV['SENDGRID_FROM_EMAIL'], $_ENV['SENDGRID_FROM_NAME']);
         $mail->addAddress('kjaroli@gmail.com'); // Add a recipient
         $mail->addAddress('info@kamleshminerals.com');  // Add a recipient
+        $mail->addAddress('support@kamleshminerals.com');  // Add a recipient
         // $mail->addAddress('kuldeep.phppoets@gmail.com'); // Add a recipient           
 
         // Content
