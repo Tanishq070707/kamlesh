@@ -37,7 +37,7 @@
         <div class="header">
           <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-              <a class="navbar-brand" href="./index.html"
+              <a class="navbar-brand" href="./index"
                 ><img src="./src/img/logo.png"
               /></a>
               <button
@@ -78,11 +78,9 @@
                     </a>
                     <div class="submenu">
                       <ul>
-                        <a href="./about.html"><li>Who We Are</li></a>
-                        <a href="./companies.html"
-                          ><li>Group of Companies</li></a
-                        >
-                        <!-- <a href="./infrastructure.html"
+                        <a href="./about"><li>Who We Are</li></a>
+                        <a href="./companies"><li>Group of Companies</li></a>
+                        <!-- <a href="./infrastructure"
                           ><li>Infrastructure</li></a
                         > -->
                       </ul>
@@ -108,18 +106,18 @@
                     </a>
                     <div class="submenu">
                       <ul>
-                        <a href="./product.html"><li>Products</li></a>
-                        <a href="./application.html"><li>Industries</li></a>
+                        <a href="./product"><li>Products</li></a>
+                        <a href="./application"><li>Industries</li></a>
                       </ul>
                     </div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./quality.html">QUALITY</a>
+                    <a class="nav-link" href="./quality">QUALITY</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./kmicro.html">K MICRO</a>
+                    <a class="nav-link" href="./kmicro">K MICRO</a>
                   </li>
-                  <a href="./contact.html" class="btn btn-group contactBtn"
+                  <a href="./contact" class="btn btn-group contactBtn"
                     >CONTACT US</a
                   >
                 </ul>
@@ -238,22 +236,34 @@
       <!-- application crad end -->
 
       <!-- form section  -->
-      <!-- <section>
+      <section>
         <div class="productFormSection spacing pt-0">
           <div class="container">
             <div class="productform">
               <div class="heading">
                 <h2>For Any Enquiry Contact Us</h2>
               </div>
-              <form class="ConForm">
+              <form
+                class="ConForm"
+                action="server/product_query.php"
+                method="POST"
+                id="product-enquiry-form"
+              >
                 <div class="row">
                   <div class="col-md-6">
                     <div class="mb-4">
+                      <input
+                        type="hidden"
+                        name="product_name"
+                        class="product_name"
+                        value=""
+                      />
                       <input
                         type="text"
                         class="form-control"
                         id="exampleFormControlInput1"
                         placeholder="Name"
+                        name="name"
                       />
                     </div>
                   </div>
@@ -264,6 +274,7 @@
                         class="form-control"
                         id="exampleFormControlInput1"
                         placeholder="Phone No."
+                        name="phone"
                       />
                     </div>
                   </div>
@@ -274,6 +285,7 @@
                         class="form-control"
                         id="exampleFormControlInput1"
                         placeholder="Email"
+                        name="email"
                       />
                     </div>
                   </div>
@@ -284,6 +296,7 @@
                         class="form-control"
                         id="exampleFormControlInput1"
                         placeholder="Message"
+                        name="message"
                       />
                     </div>
                   </div>
@@ -292,12 +305,17 @@
                       <button class="btn btn-group contactBtn">SEND</button>
                     </div>
                   </div>
+                  <h5
+                        id="succeess-message"
+                        class="mt-4"
+                        style="color: rgb(41, 197, 41)"
+                      ></h5>
                 </div>
               </form>
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- form section end -->
 
       <!-- footer section  -->
@@ -321,7 +339,7 @@
                       <p>
                         Initiate your journey towards <br />precision with us !
                       </p>
-                      <a href="./contact.html" class="btn btn-group contactBtn"
+                      <a href="./contact" class="btn btn-group contactBtn"
                         >CONTACT US</a
                       >
                     </div>
@@ -335,16 +353,16 @@
                     <div class="quicklinks">
                       <h4>Quick links</h4>
                       <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./about.html">About Us</a></li>
-                        <li><a href="./application.html">Application</a></li>
-                        <li><a href="./product.html">Products</a></li>
-                        <li><a href="./quality.html">Quality Control</a></li>
+                        <li><a href="./index">Home</a></li>
+                        <li><a href="./about">About Us</a></li>
+                        <li><a href="./application">Application</a></li>
+                        <li><a href="./product">Products</a></li>
+                        <li><a href="./quality">Quality Control</a></li>
                       </ul>
                       <ul>
-                        <li><a href="./kmicro.html">K Micro</a></li>
-                        <li><a href="./companies.html">Other Division</a></li>
-                        <!-- <li><a href="./infrastructure.html">Infrastructure</a></li> -->
+                        <li><a href="./kmicro">K Micro</a></li>
+                        <li><a href="./companies">Other Division</a></li>
+                        <!-- <li><a href="./infrastructure">Infrastructure</a></li> -->
                       </ul>
                     </div>
                   </div>
@@ -352,14 +370,12 @@
                     <div class="quicklinkss">
                       <h4>Group of Companies</h4>
                       <ul>
-                        <li><a href="./kmicro.html">K Micro Minerals</a></li>
+                        <li><a href="./kmicro">K Micro Minerals</a></li>
                         <li>
-                          <a href="./companies.html#kamesh-eng"
-                            >Kamlesh Engineers</a
-                          >
+                          <a href="./companies#kamesh-eng">Kamlesh Engineers</a>
                         </li>
                         <li>
-                          <a href="./companies.html#kamlesh-poly"
+                          <a href="./companies#kamlesh-poly"
                             >Kamlesh Polychem</a
                           >
                         </li>
@@ -385,20 +401,20 @@
                       </div>
                       <div class="addressDetail mail">
                         <img
-                          style="width: 15% "
+                          style="width: 15%"
                           src="./src/img/mail.png"
                           alt=""
                         />
                         <div>
-                          <p><a href="./contact.html">kjaroli@gmail.com</a></p>
-                          <p><a href="./contact.html">info@kamleshminerals.com</a></p>
+                          <p><a href="./contact">kjaroli@gmail.com</a></p>
+                          <p>
+                            <a href="./contact">info@kamleshminerals.com</a>
+                          </p>
                         </div>
                       </div>
                       <div class="addressDetail">
                         <img src="./src/img/Phone.png" alt="" />
-                        <p>
-                          (+91)-8239335777 
-                        </p>
+                        <p>(+91)-8239335777</p>
                       </div>
                     </div>
                   </div>
@@ -415,7 +431,6 @@
                           referrerpolicy="no-referrer-when-downgrade"
                         ></iframe>
                       </div>
-                      
                     </div>
                   </div>
                 </div>
@@ -452,11 +467,12 @@
   <script src="./data.js"></script>
   <script>
     const urlParams = new URLSearchParams(window.location.search);
-    const id = urlParams.get("id");
+    const title = urlParams.get("product");
     const getProduct = products.find((product) => {
-      return product.id == id;
+      return product.title.replace(/[^A-Z0-9]/gi, "-") == title;
     });
 
+    $(".product_name").val(getProduct.details.heading);
     $(".product-detail-head").text(getProduct.details.heading);
     $(".product-content-head").text(getProduct.details.heading);
     $(".product-detail-content").text(getProduct.details.content);
@@ -468,7 +484,7 @@
     // application card js
 
     const getIndustries = industries.filter((industry) => {
-      return getProduct.industries.includes(industry.id);
+      return getProduct.industries.includes(getProduct.id);
     });
 
     getIndustries.forEach((industry, index) => {
@@ -486,7 +502,10 @@
       $(title).text(industry.title);
       $(url).attr(
         "href",
-        `./product-detail.html?industry-id=${industry.id}&product-id=${id}`
+        `./product-detail?industry=${industry.title.replace(
+          /[^A-Z0-9]/gi,
+          "-"
+        )}&product=${title.replace(/[^A-Z0-9]/gi, "-")}`
       );
       $(industryIcon).attr("src", industry.icon);
       $(applicationcard).css("background-image", `url(${industry.bgimage})`);
@@ -494,6 +513,104 @@
       if (index != 0) {
         $(".appCard-container").append(targetCard);
       }
+    });
+  </script>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#product-enquiry-form")
+        .submit(function (e) {
+          e.preventDefault();
+        })
+        .validate({
+          rules: {
+            name: {
+              required: true,
+              minlength: 2,
+            },
+            email: {
+              required: true,
+              email: true,
+            },
+            phone: {
+              required: true,
+              digits: true,
+              minlength: 10,
+              maxlength: 15,
+            },
+            message: {
+              required: true,
+              minlength: 10,
+            },
+          },
+          messages: {
+            name: {
+              required: "Please enter your name",
+              minlength: "Your name must consist of at least 2 characters",
+            },
+            email: {
+              required: "Please enter your email address",
+              email: "Please enter a valid email address",
+            },
+            phone: {
+              required: "Please enter your phone number",
+              digits: "Please enter only digits",
+              minlength: "Your phone number must be at least 10 digits long",
+              maxlength:
+                "Your phone number must be no more than 15 digits long",
+            },
+            message: {
+              required: "Please enter a message",
+              minlength: "Your message must be at least 10 characters long",
+            },
+          },
+          errorElement: "div",
+          errorPlacement: function (error, element) {
+            error.addClass("invalid-feedback");
+            if (element.prop("type") === "checkbox") {
+              error.insertAfter(element.siblings("label"));
+            } else {
+              error.insertAfter(element);
+            }
+          },
+          highlight: function (element, errorClass, validClass) {
+            $(element).addClass("is-invalid").removeClass("is-valid");
+          },
+          unhighlight: function (element, errorClass, validClass) {
+            $(element).addClass("is-valid").removeClass("is-invalid");
+          },
+          submitHandler: function (form) {
+            $('.contactBtn').attr('disabled',true);
+            var formData = new FormData(form);
+
+            $.ajax({
+              url: "server/product_query.php", // Replace with your endpoint URL
+              type: "POST",
+              data: formData,
+              processData: false,
+              contentType: false,
+              success: function (response) {
+                console.log(response);
+                $("#succeess-message").text(
+                  "Message has been sent succesfully!"
+                );
+                setTimeout(() => {
+                  window.location.reload();
+                }, 1000);
+              },
+              error: function (xhr, status, error) {
+                console.error(error);
+                $('.contactBtn').removeAttr('disabled');
+
+                alert("An error occurred. Please try again.");
+              },
+            });
+          },
+        });
     });
   </script>
 </html>
